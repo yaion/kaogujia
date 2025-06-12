@@ -1,0 +1,68 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"strings"
+)
+
+type Result struct {
+	Code    int
+	Message string
+	Success bool
+	Data    string
+}
+
+func GetApi(url string) (string, error) {
+
+	//url := "https://service.kaogujia.com/api/author/search?limit=50&page=1&sort_field=gmv&sort=0"
+	method := "POST"
+
+	payload := strings.NewReader(`{"keyword":"","author_type":0}`)
+
+	client := &http.Client{}
+	req, err := http.NewRequest(method, url, payload)
+
+	if err != nil {
+		fmt.Println(err)
+		return "", err
+	}
+	req.Header.Add("accept", "*/*")
+	req.Header.Add("accept-language", "zh-HK,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7")
+	req.Header.Add("authorization", "Bearer eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxMDAwIiwiaXNzIjoia2FvZ3VqaWEuY29tIiwianRpIjoiZDc1MjJiOTM0ODdlNGE3M2IwZWYwYjU2ZjJkNDNiMDYiLCJzaWQiOjgyMjY4NzcsImlhdCI6MTc0OTc0MTEzMCwiZXhwIjoxNzUwMzQ1OTMwLCJid2UiOjAsInR5cCI6MSwicF9id2UiOjB9.hVW2YpbZhakEMEUiTiaeWAqyB1_HrxCvR6CsPGyma71j36CHwgu-N-ZVuRbBb1ON6lYv1O5Gbg9LIXqiXzzOsA")
+	req.Header.Add("origin", "https://www.kaogujia.com")
+	req.Header.Add("priority", "u=1, i")
+	req.Header.Add("referer", "https://www.kaogujia.com/")
+	req.Header.Add("sec-ch-ua", "\"Google Chrome\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"")
+	req.Header.Add("sec-ch-ua-mobile", "?0")
+	req.Header.Add("sec-ch-ua-platform", "\"Windows\"")
+	req.Header.Add("sec-fetch-dest", "empty")
+	req.Header.Add("sec-fetch-mode", "cors")
+	req.Header.Add("sec-fetch-site", "same-site")
+	req.Header.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36")
+	req.Header.Add("version_code", "3.1")
+	req.Header.Add("content-type", "application/json")
+
+	res, err := client.Do(req)
+	if err != nil {
+		fmt.Println(err)
+		return "", err
+	}
+	defer res.Body.Close()
+
+	body, err := io.ReadAll(res.Body)
+	if err != nil {
+		fmt.Println(err)
+		return "", err
+	}
+	fmt.Println(string(body))
+	result := new(Result)
+	err = json.Unmarshal(body, result)
+	if err != nil {
+		fmt.Println(err)
+		return "", err
+	}
+	return result.Data, err
+}

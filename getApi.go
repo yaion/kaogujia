@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"strings"
 )
@@ -15,23 +16,23 @@ type Result struct {
 	Data    string
 }
 
-func GetApi(url string) (string, error) {
+func GetApi(url, param string) (string, error) {
 
 	//url := "https://service.kaogujia.com/api/author/search?limit=50&page=1&sort_field=gmv&sort=0"
 	method := "POST"
 
-	payload := strings.NewReader(`{"keyword":"","author_type":0}`)
+	payload := strings.NewReader(param) //`{"keyword":"","author_type":0}`
 
 	client := &http.Client{}
 	req, err := http.NewRequest(method, url, payload)
 
 	if err != nil {
-		fmt.Println(err)
+		log.Output(1, fmt.Sprintf("HTTP request error: %v", err))
 		return "", err
 	}
 	req.Header.Add("accept", "*/*")
 	req.Header.Add("accept-language", "zh-HK,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7")
-	req.Header.Add("authorization", "Bearer eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxMDAwIiwiaXNzIjoia2FvZ3VqaWEuY29tIiwianRpIjoiZDc1MjJiOTM0ODdlNGE3M2IwZWYwYjU2ZjJkNDNiMDYiLCJzaWQiOjgyMjY4NzcsImlhdCI6MTc0OTc0MTEzMCwiZXhwIjoxNzUwMzQ1OTMwLCJid2UiOjAsInR5cCI6MSwicF9id2UiOjB9.hVW2YpbZhakEMEUiTiaeWAqyB1_HrxCvR6CsPGyma71j36CHwgu-N-ZVuRbBb1ON6lYv1O5Gbg9LIXqiXzzOsA")
+	req.Header.Add("authorization", "Bearer eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxMDAwIiwiaXNzIjoia2FvZ3VqaWEuY29tIiwianRpIjoiNjI3MmYyN2EyZDU5NDc0YThhYzk1NTQyNzgyYjM4OWIiLCJzaWQiOjgyMjY4NzcsImlhdCI6MTc0OTkwMDQ0MywiZXhwIjoxNzUwNTA1MjQzLCJid2UiOjAsInR5cCI6MSwicF9id2UiOjB9.sTul3qBenukj-HiOsTS_CnzHM0TV91cLA_U6dm6U5Z5ZFYgu6ZeTM3_Ai4AYdmvDN7q_SMoFjoQvv_LNo2VdzQ")
 	req.Header.Add("origin", "https://www.kaogujia.com")
 	req.Header.Add("priority", "u=1, i")
 	req.Header.Add("referer", "https://www.kaogujia.com/")
@@ -47,21 +48,21 @@ func GetApi(url string) (string, error) {
 
 	res, err := client.Do(req)
 	if err != nil {
-		fmt.Println(err)
+		log.Output(1, fmt.Sprintf("HTTP request error: %v", err))
 		return "", err
 	}
 	defer res.Body.Close()
 
 	body, err := io.ReadAll(res.Body)
 	if err != nil {
-		fmt.Println(err)
+		log.Output(1, fmt.Sprintf("HTTP request error: %v", err))
 		return "", err
 	}
-	fmt.Println(string(body))
+
 	result := new(Result)
 	err = json.Unmarshal(body, result)
 	if err != nil {
-		fmt.Println(err)
+		log.Output(1, fmt.Sprintf("JSON unmarshal error: %v", err))
 		return "", err
 	}
 	return result.Data, err

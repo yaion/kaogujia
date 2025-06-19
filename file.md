@@ -12,7 +12,7 @@
 > https://service.kaogujia.com/api/rank/author/potential?limit=50&page=1&sort_field=potential&sort=0
 - ### 达人粉丝榜接口 api/rank/author/fans/increment
 > https://service.kaogujia.com/api/rank/author/fans/increment?limit=50&page=1&sort_field=inc_fans_count&sort=0（涨粉）
-> https://service.kaogujia.com/api/rank/author/fans/increment?limit=50&page=1&sort_field=inc_fans_count&sort=0(掉粉)
+> https://service.kaogujia.com/api/rank/author/fans/increment?limit=50&page=1&sort_field=inc_fans_count&sort=0(掉粉)  和
 
 - ### 达人详情接口 /darenDetails/darenOverview/{uid}
 

@@ -15,6 +15,12 @@ mysql:
   max_open_conns: 100
   max_idle_conns: 20
   conn_max_lifetime: 30
+
+crawler:
+  interval: 30  # 分钟
+  targets:
+    - https://example.com/data1
+    - https://example.com/data2
   
 redis:
   addr: 127.0.0.1

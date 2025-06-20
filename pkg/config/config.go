@@ -21,6 +21,7 @@ type AppConfig struct {
 	Redis    RedisConfig    `yaml:"redis"`
 	Mongo    MongoConfig    `yaml:"mongodb"`
 	Log      LogConfig      `yaml:"log"`
+	Crawler  Crawler        `yaml:"crawler"`
 }
 
 // ServerConfig 服务器配置
@@ -58,6 +59,10 @@ type MongoConfig struct {
 	Uri     string `yaml:"uri"`
 	DBName  string `yaml:"db_name"`
 	TimeOut int64  `yaml:"time_out"`
+}
+
+type Crawler struct {
+	Interval int64 `yaml:"interval"`
 }
 
 type LogConfig struct {

@@ -1,7 +1,6 @@
 package serve
 
 import (
-	"fmt"
 	"kaogujia/internal/server"
 	"kaogujia/pkg/config"
 	"kaogujia/pkg/middleware"
@@ -16,7 +15,6 @@ func serve() {
 
 	// 2. 初始化中间件 (传递配置)
 	cfg := config.Get()
-	fmt.Println(cfg)
 	if err := middleware.InitAll(); err != nil {
 		log.Fatalf("Middleware init failed: %v", err)
 	}
@@ -24,4 +22,7 @@ func serve() {
 	// 3. 启动服务器
 	server := server.NewServer(cfg)
 	server.Run()
+
+	// 4 . 爬虫服务
+	go server.Crawler()
 }

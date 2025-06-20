@@ -1,0 +1,42 @@
+server:
+  host: 0.0.0.0
+  port: 2025
+  mode: debug
+  read_timeout: 10
+  write_timeout: 10
+mysql:
+  dsn: "root:password@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
+  user: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+  db_name: test
+  charset: utf8mb4
+  max_open_conns: 100
+  max_idle_conns: 20
+  conn_max_lifetime: 30
+  
+redis:
+  addr: 127.0.0.1
+  port: 6379
+  password:
+  db: 0
+
+rabbitmq:
+  uri: "amqp://guest:guest@localhost:5672/"
+  username: "guest"
+  password: "guest"
+  exchange: "exchange"
+  queue: "queue"
+  routing_key: "routing_key"
+  consumer_tag: "consumer_tag"
+mongodb:
+  uri: "mongodb://localhost:27017"
+  db_name: "test"
+  collection_name: "test"
+  timeout: 10
+  max_pool_size: 10
+  min_pool_size: 1
+  max_idle_time: 10
+  max_conn_idle_time: 10
+  max_conn_lifetime: 10

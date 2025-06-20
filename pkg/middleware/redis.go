@@ -3,7 +3,7 @@ package middleware
 import (
 	"context"
 	"fmt"
-	"goWebBasicProject/pkg/config"
+	"kaogujia/pkg/config"
 	"time"
 
 	"github.com/go-redis/redis/v8"

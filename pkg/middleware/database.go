@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"goWebBasicProject/pkg/config"
+	"kaogujia/pkg/config"
 	"time"
 
 	"gorm.io/driver/mysql"

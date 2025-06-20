@@ -1,4 +1,4 @@
-module goWebBasicProject
+module kaogujia
 
 go 1.23.1
 

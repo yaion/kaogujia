@@ -23,7 +23,7 @@ func main() {
 	}
 	url := parsedURL.Path
 
-	encryptedText, err := GetApi(urlApi)
+	encryptedText, err := GetApi(urlApi, "")
 	if err != nil {
 		fmt.Println(err)
 		return

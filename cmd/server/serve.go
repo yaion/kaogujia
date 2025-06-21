@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-func serve() {
+func Run() {
 	// 1. 加载配置
 	if err := config.Load("configs/app.yaml"); err != nil {
 		log.Fatalf("Failed to load config: %v", err)
@@ -20,9 +20,7 @@ func serve() {
 	}
 
 	// 3. 启动服务器
-	server := server.NewServer(cfg)
-	server.Run()
+	serve := server.NewServer(cfg)
+	serve.Run()
 
-	// 4 . 爬虫服务
-	go server.Crawler()
 }

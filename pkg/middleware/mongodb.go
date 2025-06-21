@@ -24,7 +24,7 @@ func InitMongo() error {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer client.Disconnect(ctx) // 确保关闭连接
+	//defer client.Disconnect(ctx) // 确保关闭连接
 
 	// 检查连接状态
 	err = client.Ping(ctx, nil)

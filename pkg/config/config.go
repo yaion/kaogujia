@@ -16,12 +16,29 @@ var (
 
 // AppConfig 顶层配置结构
 type AppConfig struct {
-	Server   ServerConfig   `yaml:"server"`
-	Database DatabaseConfig `yaml:"mysql"`
-	Redis    RedisConfig    `yaml:"redis"`
-	Mongo    MongoConfig    `yaml:"mongodb"`
-	Log      LogConfig      `yaml:"log"`
-	Crawler  Crawler        `yaml:"crawler"`
+	Websites []WebsiteConfig `yaml:"websites"`
+	Server   ServerConfig    `yaml:"server"`
+	Database DatabaseConfig  `yaml:"mysql"`
+	Redis    RedisConfig     `yaml:"redis"`
+	Mongo    MongoConfig     `yaml:"mongodb"`
+	Log      LogConfig       `yaml:"log"`
+	Crawler  Crawler         `yaml:"crawler"`
+}
+
+type WebsiteConfig struct {
+	Name     string          `yaml:"name"`
+	Targets  []string        `yaml:"targets"`
+	Accounts []AccountConfig `yaml:"accounts"`
+	Interval int64           `yaml:"interval"` // 爬取间隔(分钟)
+	// 网站特定配置
+	AllowedDomains []string `yaml:"allowed_domains"`
+	Parallelism    int      `yaml:"parallelism"`
+	RandomDelay    int      `yaml:"random_delay"` // 随机延迟(秒)
+}
+
+type AccountConfig struct {
+	Username string `yaml:"username"`
+	Password string `yaml:"password"`
 }
 
 // ServerConfig 服务器配置

@@ -46,3 +46,41 @@ mongodb:
   max_idle_time: 10
   max_conn_idle_time: 10
   max_conn_lifetime: 10
+
+websites:
+  - name: "website1"
+    allowed_domains: ["example1.com", "api.example1.com"]
+    targets:
+      - "https://example1.com/data1"
+      - "https://example1.com/data2"
+    accounts:
+      - username: "user1"
+        password: "pass1"
+        proxy: "http://proxy1:port"
+        rate_limit: 2s
+        cookies:
+          session: "abc123"
+      - username: "user2"
+        password: "pass2"
+        proxy: "http://proxy2:port"
+        rate_limit: 3s
+        cookies:
+          session: "xyz789"
+    interval: 30  # 分钟
+    parallelism: 2
+    random_delay: 5
+
+  - name: "website2"
+    allowed_domains: ["example2.com"]
+    targets:
+      - "https://example2.com/data3"
+    accounts:
+      - username: "user3"
+        password: "pass3"
+        proxy: "http://proxy3:port"
+        rate_limit: 1s
+        cookies:
+          token: "token123"
+    interval: 60
+    parallelism: 1
+    random_delay: 3

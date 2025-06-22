@@ -35,7 +35,7 @@
 > https://service.kaogujia.com/api/rank/official/live/hour?limit=50&page=1&sort_field=gap_description&sort=0
 - ### 直播大盘 todo
 
-### 视频 /api/video/search
+## 视频 /api/video/search
 > https://service.kaogujia.com/api/video/search?limit=50&page=1&sort_field=like_count&sort=0
 - ### 热门视频榜
 > https://service.kaogujia.com/api/rank/video?limit=50&page=1&sort_field=like_count&sort=0

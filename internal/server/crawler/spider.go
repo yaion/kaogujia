@@ -2,6 +2,7 @@ package crawler
 
 import (
 	"github.com/gocolly/colly/v2"
+	"kaogujia/pkg/config"
 	"kaogujia/pkg/utils"
 	"log"
 	"time"
@@ -11,17 +12,17 @@ type Spider struct {
 	collector *colly.Collector
 }
 
-func NewSpider() *Spider {
+func NewSpider(website config.WebsiteConfig) *Spider {
 	c := colly.NewCollector(
-		colly.AllowedDomains("example.com", "api.example.com"), // 允许的域名
-		colly.Async(true), // 开启异步
+		colly.AllowedDomains(website.AllowedDomains...),
+		colly.Async(true),
 	)
 
-	// 设置请求间隔避免被封
+	// 使用网站特定的请求间隔配置
 	c.Limit(&colly.LimitRule{
 		DomainGlob:  "*",
-		Parallelism: 2,
-		RandomDelay: 5 * time.Second,
+		Parallelism: website.Parallelism,
+		RandomDelay: time.Duration(website.RandomDelay) * time.Second,
 	})
 
 	return &Spider{collector: c}

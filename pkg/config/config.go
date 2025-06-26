@@ -37,8 +37,9 @@ type WebsiteConfig struct {
 }
 
 type AccountConfig struct {
-	Username string `yaml:"username"`
-	Password string `yaml:"password"`
+	Username      string `yaml:"username"`
+	Password      string `yaml:"password"`
+	Authorization string `yaml:"authorization"`
 }
 
 // ServerConfig 服务器配置

@@ -1,6 +1,7 @@
 package server
 
 import (
+	"github.com/cloudwego/hertz/pkg/app/middlewares/server/recovery"
 	"kaogujia/internal/server/crawler"
 	"kaogujia/pkg/config"
 	"kaogujia/routes"
@@ -29,7 +30,9 @@ func (s *Server) Crawler() {
 }
 
 func (s *Server) web() {
-	h := app.Default()
+	//h := app.Default()
+	h := app.New()
+	h.Use(recovery.Recovery())
 	routes.RegisterRoutes(h)
 
 	h.Spin()

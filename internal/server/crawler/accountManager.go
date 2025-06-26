@@ -8,12 +8,12 @@ import (
 )
 
 type Account struct {
-	Username  string
-	Password  string
-	Cookies   map[string]string
-	Proxy     string        // 专属代理
-	RateLimit time.Duration // 请求间隔
-	LastUsed  time.Time     // 最后使用时间
+	Username      string
+	Password      string
+	Authorization string
+	Proxy         string        // 专属代理
+	RateLimit     time.Duration // 请求间隔
+	LastUsed      time.Time     // 最后使用时间
 }
 
 type AccountPool struct {
@@ -34,8 +34,9 @@ func NewMultiAccountManager(cfg *config.AppConfig) *MultiAccountManager {
 		var accounts []*Account
 		for _, accCfg := range website.Accounts {
 			accounts = append(accounts, &Account{
-				Username: accCfg.Username,
-				Password: accCfg.Password,
+				Username:      accCfg.Username,
+				Password:      accCfg.Password,
+				Authorization: accCfg.Authorization,
 				//Cookies:   accCfg.Cookies,
 				//Proxy:     accCfg.Proxy,
 				//RateLimit: accCfg.RateLimit,
@@ -65,4 +66,17 @@ func (m *MultiAccountManager) GetAccount(website string) *Account {
 	acc := pool.accounts[0]
 	acc.LastUsed = time.Now()
 	return acc
+}
+
+func (m *MultiAccountManager) SetAccount(website string, acc *Account) {
+	pool, ok := m.pools[website]
+	if !ok {
+		return
+	}
+
+	pool.lock.Lock()
+	defer pool.lock.Unlock()
+
+	// 账号使用完毕，将其放回账号池
+	acc.LastUsed = time.Now()
 }

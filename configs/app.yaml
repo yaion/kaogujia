@@ -5,7 +5,6 @@ server:
   read_timeout: 10
   write_timeout: 10
 mysql:
-  dsn: "root:password@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
   user: root
   password: root
   host: 127.0.0.1
@@ -37,7 +36,7 @@ rabbitmq:
   routing_key: "routing_key"
   consumer_tag: "consumer_tag"
 mongodb:
-  uri: "mongodb://localhost:27017"
+  uri: "mongodb://192.168.232.133:27017"
   db_name: "test"
   collection_name: "test"
   timeout: 10
@@ -58,14 +57,12 @@ websites:
         password: "pass1"
         proxy: "http://proxy1:port"
         rate_limit: 2s
-        cookies:
-          session: "abc123"
+        authorization:
       - username: "user2"
         password: "pass2"
         proxy: "http://proxy2:port"
         rate_limit: 3s
-        cookies:
-          session: "xyz789"
+        authorization:
     interval: 30  # 分钟
     parallelism: 2
     random_delay: 5
@@ -75,12 +72,16 @@ websites:
     targets:
       - "https://example2.com/data3"
     accounts:
-      - username: "user3"
-        password: "pass3"
-        proxy: "http://proxy3:port"
-        rate_limit: 1s
-        cookies:
-          token: "token123"
+      - username: "user1"
+        password: "pass1"
+        proxy: "http://proxy1:port"
+        rate_limit: 2s
+        authorization:
+      - username: "user2"
+        password: "pass2"
+        proxy: "http://proxy2:port"
+        rate_limit: 3s
+        authorization:
     interval: 60
     parallelism: 1
     random_delay: 3

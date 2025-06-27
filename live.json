@@ -1,0 +1,2998 @@
+{
+    "pagination": {
+        "limit": 50,
+        "page": 1,
+        "total_count": 5000
+    },
+    "items": [
+        {
+            "date_code": 20250626,
+            "room_id": "8DZ3Y8kjDE1rg",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "ZnkoXrrG",
+            "nick_name": "nimobaby尼莫韩系童装",
+            "fans_count": "6.7万",
+            "avatar": "https://pic.kaogujia.com/author/77380850424.jpeg?auth_key=1750993591-0-0-6d2e0a971d5f4f97356a0baf06d886a7",
+            "title": "夏末收官！！！",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7520049347879340852.jpeg?auth_key=1750993591-0-0-cc0731d2d84790c6f39493ca160f4d95",
+            "pub_time": 1750897966,
+            "rpm": "113.7万",
+            "gmv": "1亿+",
+            "skus": "80",
+            "sales": "2500-5000",
+            "stay_duration": 168,
+            "total_users": "4.4万",
+            "peak_users": "562",
+            "duration": 34390,
+            "through": 0.285983533379625,
+            "uv": "1.4万-1.6万",
+            "aup": "10万+",
+            "interact_ratio": 0.0204,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.028800000000000003
+                },
+                {
+                    "name": "关注",
+                    "value": 0.31010000000000004
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.4022
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.007500000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0176
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0204
+                },
+                {
+                    "name": "付费",
+                    "value": 0.21230000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.4022
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=8DZ3Y8kjDE1rg&time_range_id=1",
+            "exposed_num": "6万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "kLQ6wxZ7k5v0e",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "79y9M9ke8dR",
+            "nick_name": "容雨（周二周四周天早9:00上新）",
+            "fans_count": "48.7万",
+            "avatar": "https://pic.kaogujia.com/author/3654403872275388.jpeg?auth_key=1750993591-0-0-1e683dfe9f402e5079d9c437a595ebce",
+            "title": "仲夏上新进行时",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518575865236802304.jpeg?auth_key=1750993591-0-0-a591fc227f02de1beaf4b73358218be2",
+            "pub_time": 1750554889,
+            "rpm": "69.5万",
+            "gmv": "1亿+",
+            "skus": "119",
+            "sales": "1万-2.5万",
+            "stay_duration": 206,
+            "total_users": "27.8万",
+            "peak_users": "3426",
+            "duration": 24037,
+            "through": 0.3010829192995996,
+            "uv": "1000-1200",
+            "aup": "2.0万-2.2万",
+            "interact_ratio": 0.0029,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0427
+                },
+                {
+                    "name": "关注",
+                    "value": 0.28500000000000003
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.2228
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.009000000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0132
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.024
+                },
+                {
+                    "name": "付费",
+                    "value": 0.4027
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.4027
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=kLQ6wxZ7k5v0e&time_range_id=1",
+            "exposed_num": "33.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "lRVDM8bYw9r0G",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "9BVR6kX3Wqv",
+            "nick_name": "云上珠宝.",
+            "fans_count": "725.4万",
+            "avatar": "https://pic.kaogujia.com/author/3852285068190743.jpeg?auth_key=1750993591-0-0-82d3c6b1075620ee68c8639eb2d09c5c",
+            "title": "香港珠宝展最后一天！捡漏！！",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518614460592900901.jpeg?auth_key=1750993591-0-0-efcd232889e26d175d3efe328a0a3a5e",
+            "pub_time": 1750563879,
+            "rpm": "77.1万",
+            "gmv": "1亿+",
+            "skus": "163",
+            "sales": "50万-75万",
+            "stay_duration": 295,
+            "total_users": "687万",
+            "peak_users": "13.3万",
+            "duration": 21251,
+            "through": 0.2859966029013516,
+            "uv": "10-50",
+            "aup": "400-500",
+            "interact_ratio": 3.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0912
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1345
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3483
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0164
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.012700000000000001
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.019
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3775
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.3775
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=lRVDM8bYw9r0G&time_range_id=1",
+            "exposed_num": "1063.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250625,
+            "room_id": "1bRg4lDLDgY7q",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "GN7bxleklKb",
+            "nick_name": "李厚霖今晚七点绿松石湖北十堰溯源专场",
+            "fans_count": "108万",
+            "avatar": "https://pic.kaogujia.com/author/1480422338069328.jpeg?auth_key=1750993591-0-0-09d12d3a2efd193ab92ab5911be395e9",
+            "title": "绿松石之都溯源专场，产地直采，速进~",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519824585248869161.jpeg?auth_key=1750993591-0-0-614a74b7b2db02983691881a767be93b",
+            "pub_time": 1750845611,
+            "rpm": "62.4万",
+            "gmv": "1亿+",
+            "skus": "47",
+            "sales": "2500-5000",
+            "stay_duration": 195,
+            "total_users": "26.6万",
+            "peak_users": "4887",
+            "duration": 19028,
+            "through": 0.18105933146169942,
+            "uv": "700-800",
+            "aup": "5.0万-5.2万",
+            "interact_ratio": 0.0042,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0323
+                },
+                {
+                    "name": "关注",
+                    "value": 0.20570000000000002
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.393
+                },
+                {
+                    "name": "直播推荐/同城",
+                    "value": 0.0013000000000000002
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0358
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0227
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.037000000000000005
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2718
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.393
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=1bRg4lDLDgY7q&time_range_id=1",
+            "exposed_num": "80万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "vZDrmxB1BGeXo",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "1jyWVeKN",
+            "nick_name": "懒猫nono",
+            "fans_count": "235.4万",
+            "avatar": "https://pic.kaogujia.com/author/81231349761.jpeg?auth_key=1750993591-0-0-2e68e1ecd40e99882f0decc5265bae72",
+            "title": "新款秋冬反季狂欢！",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7519028700583660323.jpeg?auth_key=1750993591-0-0-f5f7e9daacb05eae3bbd1ba6dc52eda2",
+            "pub_time": 1750660313,
+            "rpm": "119.3万",
+            "gmv": "1亿+",
+            "skus": "33",
+            "sales": "1000-2500",
+            "stay_duration": 251,
+            "total_users": "14万",
+            "peak_users": "4554",
+            "duration": 8945,
+            "through": 0.2391844338646243,
+            "uv": "1200-1400",
+            "aup": "10万+",
+            "interact_ratio": 0.0032,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0613
+                },
+                {
+                    "name": "关注",
+                    "value": 0.26680000000000004
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3028
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.014700000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0083
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0233
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3214
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.3214
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=vZDrmxB1BGeXo&time_range_id=1",
+            "exposed_num": "30万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250624,
+            "room_id": "V2EG712DdL8bn",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "3qqKddaW9xW",
+            "nick_name": "FOREVERCAN小纯",
+            "fans_count": "23.9万",
+            "avatar": "https://pic.kaogujia.com/author/1275039680314612.jpeg?auth_key=1750993591-0-0-0e00326e6c6de285ba413cc19967fca9",
+            "title": "来见面吧",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519451584313756451.jpeg?auth_key=1750993591-0-0-59a51b7b01c7079ab0f6b34404371dc7",
+            "pub_time": 1750758773,
+            "rpm": "44.4万",
+            "gmv": "1亿+",
+            "skus": "28",
+            "sales": "1000-2500",
+            "stay_duration": 107,
+            "total_users": "20.2万",
+            "peak_users": "3045",
+            "duration": 20501,
+            "through": 0.46251337780454405,
+            "uv": "700-800",
+            "aup": "7.8万-8.0万",
+            "interact_ratio": 0.0016,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.006200000000000001
+                },
+                {
+                    "name": "关注",
+                    "value": 0.10260000000000001
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.1313
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0035
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0021000000000000003
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0083
+                },
+                {
+                    "name": "付费",
+                    "value": 0.7455
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.7455
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=V2EG712DdL8bn&time_range_id=1",
+            "exposed_num": "26.1万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250624,
+            "room_id": "r9LVR1Drj6aa7",
+            "is_live": 0,
+            "market_level": 4,
+            "uid": "VlE20djQ",
+            "nick_name": "中古捡漏杨杨甄选",
+            "fans_count": "12.7万",
+            "avatar": "https://pic.kaogujia.com/author/110848517307.jpeg?auth_key=1750993591-0-0-df896d0f493b32929caf776f0a6054df",
+            "title": "95新破价12期免息大场！！",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519495247156939530.jpeg?auth_key=1750993591-0-0-5a133bf8c0e4704c43ba9efdffefbaa7",
+            "pub_time": 1750768932,
+            "rpm": "111.2万",
+            "gmv": "1亿+",
+            "skus": "178",
+            "sales": "500-750",
+            "stay_duration": 159,
+            "total_users": "3.6万",
+            "peak_users": "857",
+            "duration": 7816,
+            "through": 0.25495089574789553,
+            "uv": "4000-4200",
+            "aup": "10万+",
+            "interact_ratio": 0.0072,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0023
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2564
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.49910000000000004
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0274
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0212
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0328
+                },
+                {
+                    "name": "付费",
+                    "value": 0.15960000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.49910000000000004
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=r9LVR1Drj6aa7&time_range_id=1",
+            "exposed_num": "7.4万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "aB84kKoLRdYWx",
+            "is_live": 0,
+            "market_level": 4,
+            "uid": "mDyvgyx9",
+            "nick_name": "肃禾",
+            "fans_count": "20.4万",
+            "avatar": "https://pic.kaogujia.com/author/69212130185.jpeg?auth_key=1750993591-0-0-1be149f58641e42b53db72ce87bce73e",
+            "title": "SUEO 上新",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518239358793616140.jpeg?auth_key=1750993591-0-0-86cc01e4788361e53b8afd8047e45233",
+            "pub_time": 1750476541,
+            "rpm": "42.1万",
+            "gmv": "1亿+",
+            "skus": "56",
+            "sales": "100-250",
+            "stay_duration": 181,
+            "total_users": "7201",
+            "peak_users": "110",
+            "duration": 15137,
+            "through": 0.12582608695652173,
+            "uv": "1.4万-1.6万",
+            "aup": "10万+",
+            "interact_ratio": 0.0135,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.08990000000000001
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1584
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.45220000000000005
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0068000000000000005
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0341
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0194
+                },
+                {
+                    "name": "付费",
+                    "value": 0.23900000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.45220000000000005
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=aB84kKoLRdYWx&time_range_id=1",
+            "exposed_num": "3.5万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "Lo081mZa7V1k7",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "x8Z1vy64o3l",
+            "nick_name": "小北珠宝",
+            "fans_count": "420.4万",
+            "avatar": "https://pic.kaogujia.com/author/3875131135367915.jpeg?auth_key=1750993591-0-0-5e0420b1a170edc8221624926439de9b",
+            "title": "四会超级供应链专场",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518255244524505883.jpeg?auth_key=1750993591-0-0-594d969d32ef2ead5db0bbae4bba9d68",
+            "pub_time": 1750480235,
+            "rpm": "23.6万",
+            "gmv": "1亿+",
+            "skus": "111",
+            "sales": "25万-50万",
+            "stay_duration": 272,
+            "total_users": "426.5万",
+            "peak_users": "10.4万",
+            "duration": 25910,
+            "through": 0.20631966713801644,
+            "uv": "10-50",
+            "aup": "200-300",
+            "interact_ratio": 5.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0656
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1776
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3279
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0182
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.015000000000000001
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0244
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3708
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.3708
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=Lo081mZa7V1k7&time_range_id=1",
+            "exposed_num": "791.4万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250624,
+            "room_id": "BN0kMwk3mo97V",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "v57LVMnKo7",
+            "nick_name": "刘媛媛26号早8点水星夏日收官国补大场",
+            "fans_count": "2232.2万",
+            "avatar": "https://pic.kaogujia.com/author/21609074922667.jpeg?auth_key=1750993591-0-0-2ce2a91c88ad9812599635bbf0c2a0cf",
+            "title": "什么？学而思学习机降价到2000多？暑假冲刺必备！快来",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519306098273274676.jpeg?auth_key=1750993591-0-0-b237b1f5f15fbdd2cc7a08ca3c060ce3",
+            "pub_time": 1750726646,
+            "rpm": "21.9万",
+            "gmv": "7500万-1亿",
+            "skus": "70",
+            "sales": "2.5万-5万",
+            "stay_duration": 246,
+            "total_users": "375.8万",
+            "peak_users": "5.6万",
+            "duration": 21660,
+            "through": 0.0918637470705491,
+            "uv": "10-50",
+            "aup": "2600-2800",
+            "interact_ratio": 6.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.1218
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1331
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.4158
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.012700000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0245
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0221
+                },
+                {
+                    "name": "付费",
+                    "value": 0.26940000000000003
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.4158
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=BN0kMwk3mo97V&time_range_id=1",
+            "exposed_num": "2478.5万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "5b2YYlAe0kWvb",
+            "is_live": 0,
+            "market_level": 4,
+            "uid": "VlE20djQ",
+            "nick_name": "中古捡漏杨杨甄选",
+            "fans_count": "12.7万",
+            "avatar": "https://pic.kaogujia.com/author/110848517307.jpeg?auth_key=1750993591-0-0-df896d0f493b32929caf776f0a6054df",
+            "title": "95新破价12期免息大场！！",
+            "live_cate_name": "",
+            "cover": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7374370536417250067~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_8663_webcast&from=webcast.room.pack&l=20250624002349F165962869137D48D7BE&lk3s=39e7556e&s=room_info&sc=webcast_cover&x-expires=1753287829&x-signature=yAjzBCwEpKTHsAQ3NK3xM5%2FMgtw%3D",
+            "pub_time": 1750681657,
+            "rpm": "32.6万",
+            "gmv": "7500万-1亿",
+            "skus": "220",
+            "sales": "500-750",
+            "stay_duration": 165,
+            "total_users": "5.7万",
+            "peak_users": "782",
+            "duration": 14137,
+            "through": 0.26979350625006165,
+            "uv": "1200-1400",
+            "aup": "10万+",
+            "interact_ratio": 0.0073,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0037
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2624
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5159
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.027800000000000002
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0247
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0325
+                },
+                {
+                    "name": "付费",
+                    "value": 0.132
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5159
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=5b2YYlAe0kWvb&time_range_id=1",
+            "exposed_num": "10.1万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "V2Ep30Nxgv057",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "9BVR6kX3Wqv",
+            "nick_name": "云上珠宝.",
+            "fans_count": "725.4万",
+            "avatar": "https://pic.kaogujia.com/author/3852285068190743.jpeg?auth_key=1750993591-0-0-82d3c6b1075620ee68c8639eb2d09c5c",
+            "title": "香港珠宝展最后一天！收官团购！",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518730453101415195.jpeg?auth_key=1750993591-0-0-906f8963828c17e4ed57b330c4b3d801",
+            "pub_time": 1750590878,
+            "rpm": "21.2万",
+            "gmv": "7500万-1亿",
+            "skus": "184",
+            "sales": "25万-50万",
+            "stay_duration": 305,
+            "total_users": "593.9万",
+            "peak_users": "11.6万",
+            "duration": 21366,
+            "through": 0.3188568049485845,
+            "uv": "10-50",
+            "aup": "200-300",
+            "interact_ratio": 3.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.09140000000000001
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1554
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.2917
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0183
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0117
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.024
+                },
+                {
+                    "name": "付费",
+                    "value": 0.4072
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.4072
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=V2Ep30Nxgv057&time_range_id=1",
+            "exposed_num": "814.1万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "3bRGnawLMlnKW",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "1jyWVeKN",
+            "nick_name": "懒猫nono",
+            "fans_count": "235.4万",
+            "avatar": "https://pic.kaogujia.com/author/81231349761.jpeg?auth_key=1750993591-0-0-2e68e1ecd40e99882f0decc5265bae72",
+            "title": "新款秋冬反季狂欢！",
+            "live_cate_name": "其他-电商",
+            "cover": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7307099899038829363~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_8663_webcast&from=webcast.room.pack&l=2025062400185129166B9EB6FC4F4A7B9D&lk3s=39e7556e&s=room_info&sc=webcast_cover&x-expires=1753287531&x-signature=fk8%2BuYDIWN952uSIczJ69Hv8p9Y%3D",
+            "pub_time": 1750679447,
+            "rpm": "27.9万",
+            "gmv": "5000万-7500万",
+            "skus": "51",
+            "sales": "2500-5000",
+            "stay_duration": 283,
+            "total_users": "21.3万",
+            "peak_users": "4504",
+            "duration": 15977,
+            "through": 0.21816842875713685,
+            "uv": "300-400",
+            "aup": "1.6万-1.8万",
+            "interact_ratio": 0.0027,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0487
+                },
+                {
+                    "name": "关注",
+                    "value": 0.3443
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3075
+                },
+                {
+                    "name": "直播推荐/同城",
+                    "value": 0.0012000000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0142
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.011600000000000001
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0244
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2477
+                }
+            ],
+            "max_traffic": {
+                "name": "关注",
+                "value": 0.3443
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=3bRGnawLMlnKW&time_range_id=1",
+            "exposed_num": "44.5万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "aB8226Dd3WxR8",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "8bq4gY4",
+            "nick_name": "溶溶RONGRONG",
+            "fans_count": "126.5万",
+            "avatar": "https://pic.kaogujia.com/author/6524430296.jpeg?auth_key=1750993591-0-0-f3695ea5626f7b914807a3cfe7b4b6b2",
+            "title": "一个有意思的高品质直播间",
+            "live_cate_name": "其他-电商",
+            "cover": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7289395256005200699~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_8663_webcast&from=webcast.room.pack&l=202506240016405BCF997289376246F038&lk3s=39e7556e&s=room_info&sc=webcast_cover&x-expires=1753287400&x-signature=1I3qtYAkcDlZgkzEdiGP2GKsmyU%3D",
+            "pub_time": 1750681454,
+            "rpm": "30.3万",
+            "gmv": "5000万-7500万",
+            "skus": "111",
+            "sales": "1万-2.5万",
+            "stay_duration": 154,
+            "total_users": "32.5万",
+            "peak_users": "4653",
+            "duration": 13856,
+            "through": 0.27068111606923945,
+            "uv": "200-300",
+            "aup": "6800-7000",
+            "interact_ratio": 0.0026,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0524
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2273
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.38370000000000004
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0167
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0196
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0188
+                },
+                {
+                    "name": "付费",
+                    "value": 0.28090000000000004
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.38370000000000004
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=aB8226Dd3WxR8&time_range_id=1",
+            "exposed_num": "63.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "ppKAxb0E8voB5",
+            "is_live": 0,
+            "market_level": 0,
+            "uid": "a68D14v9Yo",
+            "nick_name": "平平好物推荐",
+            "fans_count": "3.8万",
+            "avatar": "https://pic.kaogujia.com/author/200529462179084.jpeg?auth_key=1750993591-0-0-02ae2243c49e0b85e20cd24abae7b77b",
+            "title": "感恩遇见的所有家人",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7520143610000476962.jpeg?auth_key=1750993591-0-0-59cb9f5f27859c9ce56393b7dbe3bd5d",
+            "pub_time": 1750919901,
+            "rpm": "49.3万",
+            "gmv": "5000万-7500万",
+            "skus": "20",
+            "sales": "2500-5000",
+            "stay_duration": 104,
+            "total_users": "6.2万",
+            "peak_users": "5058",
+            "duration": 7581,
+            "through": 0.18713008541758325,
+            "uv": "900-1000",
+            "aup": "2.2万-2.4万",
+            "interact_ratio": 0.0063,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.010400000000000001
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.0784
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0023
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.004
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.007
+                },
+                {
+                    "name": "付费",
+                    "value": 0.897
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.897
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=ppKAxb0E8voB5&time_range_id=1",
+            "exposed_num": "24.1万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "ppKgR0lGx6qmv",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "qQkM6QWgB6",
+            "nick_name": "施先生梅子",
+            "fans_count": "63.6万",
+            "avatar": "https://pic.kaogujia.com/author/299545993416064.jpeg?auth_key=1750993591-0-0-a2ada3d86ead0b19bbc760925d338884",
+            "title": "施先生梅子正在直播",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7520022714237635362.jpeg?auth_key=1750993591-0-0-dcf6ade11e7ad9743e3e800cff843d0e",
+            "pub_time": 1750891819,
+            "rpm": "11.9万",
+            "gmv": "5000万-7500万",
+            "skus": "68",
+            "sales": "1万-2.5万",
+            "stay_duration": 122,
+            "total_users": "39.6万",
+            "peak_users": "2819",
+            "duration": 30324,
+            "through": 0.26265825655934943,
+            "uv": "100-200",
+            "aup": "3400-3600",
+            "interact_ratio": 0.0027,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.07440000000000001
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.6174000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0117
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0152
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0218
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2581
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.6174000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=ppKgR0lGx6qmv&time_range_id=1",
+            "exposed_num": "99.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "w2ao73DKw989X",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "1y6Ddm7Q",
+            "nick_name": "yiyi吖（艺艺吖）",
+            "fans_count": "67.1万",
+            "avatar": "https://pic.kaogujia.com/author/62569759261.jpeg?auth_key=1750993591-0-0-d445aae49f17db71144a947fb82ae919",
+            "title": "yiyi吖正在直播",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518602235048446771.jpeg?auth_key=1750993591-0-0-db39c4a874b434bcfa7263a45889d492",
+            "pub_time": 1750561022,
+            "rpm": "15.4万",
+            "gmv": "5000万-7500万",
+            "skus": "121",
+            "sales": "1000-2500",
+            "stay_duration": 176,
+            "total_users": "10.4万",
+            "peak_users": "1276",
+            "duration": 22729,
+            "through": 0.20632621720706887,
+            "uv": "500-600",
+            "aup": "4.2万-4.4万",
+            "interact_ratio": 0.0058,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.033
+                },
+                {
+                    "name": "关注",
+                    "value": 0.24070000000000003
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.2368
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0102
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0115
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0161
+                },
+                {
+                    "name": "付费",
+                    "value": 0.4509
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.4509
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=w2ao73DKw989X&time_range_id=1",
+            "exposed_num": "29.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250625,
+            "room_id": "aB8Y67dZRvZbv",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "qQkM6QWgB6",
+            "nick_name": "施先生梅子",
+            "fans_count": "63.6万",
+            "avatar": "https://pic.kaogujia.com/author/299545993416064.jpeg?auth_key=1750993591-0-0-a2ada3d86ead0b19bbc760925d338884",
+            "title": "施先生梅子正在直播",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7519651760873458484.jpeg?auth_key=1750993591-0-0-4e91085e1cb07f4f1ebff40c8e927d90",
+            "pub_time": 1750805422,
+            "rpm": "10.9万",
+            "gmv": "5000万-7500万",
+            "skus": "65",
+            "sales": "1万-2.5万",
+            "stay_duration": 125,
+            "total_users": "39.3万",
+            "peak_users": "2526",
+            "duration": 30350,
+            "through": 0.2674397900165699,
+            "uv": "100-200",
+            "aup": "3000-3200",
+            "interact_ratio": 0.0027,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.0737
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5942000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0117
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.016300000000000002
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.020800000000000003
+                },
+                {
+                    "name": "付费",
+                    "value": 0.28190000000000004
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5942000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=aB8Y67dZRvZbv&time_range_id=1",
+            "exposed_num": "95.5万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250624,
+            "room_id": "ZDlGp7qxKDvgX",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "qQkM6QWgB6",
+            "nick_name": "施先生梅子",
+            "fans_count": "63.6万",
+            "avatar": "https://pic.kaogujia.com/author/299545993416064.jpeg?auth_key=1750993591-0-0-a2ada3d86ead0b19bbc760925d338884",
+            "title": "施先生梅子正在直播",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7519280572104035124.jpeg?auth_key=1750993591-0-0-a779118ff6bdb0f2afb459370cbb8e74",
+            "pub_time": 1750719009,
+            "rpm": "10.4万",
+            "gmv": "5000万-7500万",
+            "skus": "78",
+            "sales": "1万-2.5万",
+            "stay_duration": 131,
+            "total_users": "38.2万",
+            "peak_users": "2602",
+            "duration": 31127,
+            "through": 0.2912257041426922,
+            "uv": "100-200",
+            "aup": "3000-3200",
+            "interact_ratio": 0.0027,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.0791
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5829
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0119
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0173
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.020800000000000003
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2868
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5829
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=ZDlGp7qxKDvgX&time_range_id=1",
+            "exposed_num": "83.5万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "eV7yLB0AXk6yN",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "qQkM6QWgB6",
+            "nick_name": "施先生梅子",
+            "fans_count": "63.6万",
+            "avatar": "https://pic.kaogujia.com/author/299545993416064.jpeg?auth_key=1750993591-0-0-a2ada3d86ead0b19bbc760925d338884",
+            "title": "施先生梅子正在直播",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518538483552537379.jpeg?auth_key=1750993591-0-0-36fbf3934388dd41f6d346e0d4c22011",
+            "pub_time": 1750546210,
+            "rpm": "10.2万",
+            "gmv": "5000万-7500万",
+            "skus": "71",
+            "sales": "1万-2.5万",
+            "stay_duration": 144,
+            "total_users": "33.5万",
+            "peak_users": "3238",
+            "duration": 30486,
+            "through": 0.2719715089926394,
+            "uv": "100-200",
+            "aup": "2600-2800",
+            "interact_ratio": 0.0031,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.095
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5047
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0137
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0198
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.025400000000000002
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3401
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5047
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=eV7yLB0AXk6yN&time_range_id=1",
+            "exposed_num": "75.7万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "8DZABkxj7j5jk",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "qQkM6QWgB6",
+            "nick_name": "施先生梅子",
+            "fans_count": "63.6万",
+            "avatar": "https://pic.kaogujia.com/author/299545993416064.jpeg?auth_key=1750993591-0-0-a2ada3d86ead0b19bbc760925d338884",
+            "title": "施先生梅子正在直播",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518909700356721408.jpeg?auth_key=1750993591-0-0-4dd8efa3103c54cd3384ea87a8fef86c",
+            "pub_time": 1750632612,
+            "rpm": "9.8万",
+            "gmv": "5000万-7500万",
+            "skus": "81",
+            "sales": "1万-2.5万",
+            "stay_duration": 131,
+            "total_users": "33万",
+            "peak_users": "2049",
+            "duration": 31664,
+            "through": 0.2562151256424972,
+            "uv": "100-200",
+            "aup": "2800-3000",
+            "interact_ratio": 0.0031,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.09330000000000001
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5005000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0134
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0213
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0247
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3457
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5005000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=8DZABkxj7j5jk&time_range_id=1",
+            "exposed_num": "79.1万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "aB8aNWLZ5rkrN",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "qQkM6QWgB6",
+            "nick_name": "施先生梅子",
+            "fans_count": "63.6万",
+            "avatar": "https://pic.kaogujia.com/author/299545993416064.jpeg?auth_key=1750993591-0-0-a2ada3d86ead0b19bbc760925d338884",
+            "title": "施先生梅子正在直播",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518167467382819584.jpeg?auth_key=1750993591-0-0-be28c50825ee0c66c92a1d0e223e061a",
+            "pub_time": 1750459811,
+            "rpm": "12.5万",
+            "gmv": "2500万-5000万",
+            "skus": "56",
+            "sales": "1万-2.5万",
+            "stay_duration": 135,
+            "total_users": "34.2万",
+            "peak_users": "3385",
+            "duration": 23579,
+            "through": 0.2421079852375905,
+            "uv": "100-200",
+            "aup": "2800-3000",
+            "interact_ratio": 0.0029,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.07
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5659000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.011600000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0155
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0206
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3155
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5659000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=aB8aNWLZ5rkrN&time_range_id=1",
+            "exposed_num": "94万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "bpEKklNVjwrd5",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "rpY2peBv",
+            "nick_name": "陈思斯",
+            "fans_count": "71.6万",
+            "avatar": "https://pic.kaogujia.com/author/96008616730.jpeg?auth_key=1750993591-0-0-d58c76fdb0c4e85deafc224e9b76e714",
+            "title": "源头翡翠大户溯源",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518261159640746763.jpeg?auth_key=1750993591-0-0-b214c56ae5bc5ab4d0c80729eb3df055",
+            "pub_time": 1750481612,
+            "rpm": "16.1万",
+            "gmv": "2500万-5000万",
+            "skus": "39",
+            "sales": "2500-5000",
+            "stay_duration": 176,
+            "total_users": "31.1万",
+            "peak_users": "3909",
+            "duration": 17544,
+            "through": 0.22600166383441728,
+            "uv": "100-200",
+            "aup": "1.2万-1.4万",
+            "interact_ratio": 0.0033,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0227
+                },
+                {
+                    "name": "关注",
+                    "value": 0.0787
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.6148
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0426
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.015000000000000001
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0137
+                },
+                {
+                    "name": "付费",
+                    "value": 0.21200000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.6148
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=bpEKklNVjwrd5&time_range_id=1",
+            "exposed_num": "92.9万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "dVKWZnZDoMo6Z",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "dV6nd46ynM1",
+            "nick_name": "泊澳",
+            "fans_count": "374.4万",
+            "avatar": "https://pic.kaogujia.com/author/3875145733640903.jpeg?auth_key=1750993591-0-0-64a46ad66af1923c4d46bb0bca2623dc",
+            "title": "开心直播，进来领礼物",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518775914675653403.jpeg?auth_key=1750993591-0-0-713db001d9aba8864c3348cb6c8fc76c",
+            "pub_time": 1750601452,
+            "rpm": "16.4万",
+            "gmv": "2500万-5000万",
+            "skus": "39",
+            "sales": "2.5万-5万",
+            "stay_duration": 246,
+            "total_users": "64.8万",
+            "peak_users": "7.3万",
+            "duration": 15152,
+            "through": 0.2953283119019636,
+            "uv": "50-100",
+            "aup": "1200-1400",
+            "interact_ratio": 0.0018,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.0439
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.1046
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0125
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.006
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0071
+                },
+                {
+                    "name": "付费",
+                    "value": 0.8255
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.8255
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=dVKWZnZDoMo6Z&time_range_id=1",
+            "exposed_num": "150.3万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "nWEAEeQqnrlol",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "Lp1aMAgk",
+            "nick_name": "冬雪传媒（洗发水女王）",
+            "fans_count": "211.7万",
+            "avatar": "https://pic.kaogujia.com/author/72962253483.jpeg?auth_key=1750993591-0-0-8e20dca21a9cce0cc89c32e807ab3850",
+            "title": "说点事",
+            "live_cate_name": "",
+            "cover": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7500572372143983386~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_8663_webcast&from=webcast.room.pack&l=202506270122280CED02647143076C14D5&lk3s=39e7556e&s=room_info&sc=webcast_cover&x-expires=1753550548&x-signature=r3hih%2FFAxom%2FiKBY7lsZurbwKJk%3D",
+            "pub_time": 1750944972,
+            "rpm": "18.3万",
+            "gmv": "2500万-5000万",
+            "skus": "32",
+            "sales": "10万-25万",
+            "stay_duration": 148,
+            "total_users": "245.8万",
+            "peak_users": "13万",
+            "duration": 13499,
+            "through": 0.0,
+            "uv": "10-50",
+            "aup": "200-300",
+            "interact_ratio": 5.0E-4,
+            "traffic": null,
+            "max_traffic": null,
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=nWEAEeQqnrlol&time_range_id=1",
+            "exposed_num": "0",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "E45lgdwmeB176",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "K1KQjEbgB0m",
+            "nick_name": "宋宋得宋",
+            "fans_count": "20.1万",
+            "avatar": "https://pic.kaogujia.com/author/1966358441497111.jpeg?auth_key=1750993591-0-0-a53d15dc812373c93560242b23b31ee8",
+            "title": "坚持长期主义",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518227970765343497.jpeg?auth_key=1750993591-0-0-722c34828b0ff0f9f0836f7fd73d3016",
+            "pub_time": 1750473883,
+            "rpm": "12万",
+            "gmv": "2500万-5000万",
+            "skus": "78",
+            "sales": "1000-2500",
+            "stay_duration": 130,
+            "total_users": "12.6万",
+            "peak_users": "1344",
+            "duration": 20222,
+            "through": 0.0,
+            "uv": "300-400",
+            "aup": "1.6万-1.8万",
+            "interact_ratio": 0.0058,
+            "traffic": null,
+            "max_traffic": null,
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=E45lgdwmeB176&time_range_id=1",
+            "exposed_num": "0",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "eV7LZjX6y3vLr",
+            "is_live": 0,
+            "market_level": 0,
+            "uid": "LLX5X9p3Mnv",
+            "nick_name": "晓晓包展白菜号",
+            "fans_count": "2.8万",
+            "avatar": "https://pic.kaogujia.com/author/4462292507044283.jpeg?auth_key=1750993591-0-0-d5eec5b3138263cf40fdd7e4bfdfcbed",
+            "title": "6月第16场",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7520076079692892979.jpeg?auth_key=1750993591-0-0-be791afc5433b23f772837dcf28af88d",
+            "pub_time": 1750904171,
+            "rpm": "25.8万",
+            "gmv": "2500万-5000万",
+            "skus": "145",
+            "sales": "50-100",
+            "stay_duration": 214,
+            "total_users": "1.6万",
+            "peak_users": "535",
+            "duration": 9236,
+            "through": 0.2600653574034709,
+            "uv": "2400-2600",
+            "aup": "10万+",
+            "interact_ratio": 0.0113,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0021000000000000003
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2541
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5131
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0241
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0081
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.040600000000000004
+                },
+                {
+                    "name": "付费",
+                    "value": 0.1568
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5131
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=eV7LZjX6y3vLr&time_range_id=1",
+            "exposed_num": "3.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "8DZ8Zby3V66A4",
+            "is_live": 0,
+            "market_level": 4,
+            "uid": "xqE4B1R1BN5",
+            "nick_name": "CHANMITY",
+            "fans_count": "3.5万",
+            "avatar": "https://pic.kaogujia.com/author/1837972388054959.jpeg?auth_key=1750993591-0-0-0ae2075aa963332d4fc1b3b565c61207",
+            "title": "新款大上新",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7520251551231920896.jpeg?auth_key=1750993591-0-0-797ec3863cc26a671ddb6467c2ae01b9",
+            "pub_time": 1750945029,
+            "rpm": "20.4万",
+            "gmv": "2500万-5000万",
+            "skus": "74",
+            "sales": "250-500",
+            "stay_duration": 139,
+            "total_users": "1.4万",
+            "peak_users": "313",
+            "duration": 11450,
+            "through": 0.0,
+            "uv": "2600-2800",
+            "aup": "9.8万-10.0万",
+            "interact_ratio": 0.0104,
+            "traffic": null,
+            "max_traffic": null,
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=8DZ8Zby3V66A4&time_range_id=1",
+            "exposed_num": "0",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "aB8rdxlZDnANv",
+            "is_live": 0,
+            "market_level": 4,
+            "uid": "89wy713nv6g",
+            "nick_name": "二叔的包铺清货号",
+            "fans_count": "1.4万",
+            "avatar": "https://pic.kaogujia.com/author/3002101051194396.jpeg?auth_key=1750993591-0-0-f4ac4c21ccd4f05e158aecef657aeb49",
+            "title": "我就是清货",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7520135531934911284.jpeg?auth_key=1750993591-0-0-e9606f075bb618089cd7cbe19f0c12cf",
+            "pub_time": 1750918015,
+            "rpm": "22万",
+            "gmv": "2500万-5000万",
+            "skus": "195",
+            "sales": "0-50",
+            "stay_duration": 233,
+            "total_users": "1.6万",
+            "peak_users": "447",
+            "duration": 10499,
+            "through": 0.27109914549923914,
+            "uv": "2200-2400",
+            "aup": "10万+",
+            "interact_ratio": 0.0092,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0012000000000000001
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2185
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5082
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.030600000000000002
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.031100000000000003
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0424
+                },
+                {
+                    "name": "付费",
+                    "value": 0.16740000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5082
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=aB8rdxlZDnANv&time_range_id=1",
+            "exposed_num": "2.6万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "lRVDnQWmaKbed",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "8g5NdZGx",
+            "nick_name": "李予诺",
+            "fans_count": "400.8万",
+            "avatar": "https://pic.kaogujia.com/author/58505247852.jpeg?auth_key=1750993591-0-0-1415c7a9a54404a2217aeb380f8f3a6f",
+            "title": "上新来了！！！！！！",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518731416482417445.jpeg?auth_key=1750993591-0-0-1f21d730502ec81d2b8603aa45df871b",
+            "pub_time": 1750591096,
+            "rpm": "9.6万",
+            "gmv": "2500万-5000万",
+            "skus": "52",
+            "sales": "1万-2.5万",
+            "stay_duration": 289,
+            "total_users": "52.8万",
+            "peak_users": "9132",
+            "duration": 21931,
+            "through": 0.16419833154168037,
+            "uv": "50-100",
+            "aup": "1600-1800",
+            "interact_ratio": 0.0024,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0704
+                },
+                {
+                    "name": "关注",
+                    "value": 0.215
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.39730000000000004
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.027700000000000002
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0129
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0218
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2543
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.39730000000000004
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=lRVDnQWmaKbed&time_range_id=1",
+            "exposed_num": "168.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250624,
+            "room_id": "Lo0yqnnDBkLBG",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "8Qvnq5VX",
+            "nick_name": "张檬小五夫妇（月子中）",
+            "fans_count": "955.8万",
+            "avatar": "https://pic.kaogujia.com/author/75852268052.jpeg?auth_key=1750993591-0-0-6280e5e95153293e060ddfa87276641a",
+            "title": "和姐妹们一起聊聊天～",
+            "live_cate_name": "其他-购物/电商",
+            "cover": "https://pic.kaogujia.com/live/7519311696805055283.jpeg?auth_key=1750993591-0-0-0bc722698c8d0d0ac81bdb64b9742c94",
+            "pub_time": 1750726212,
+            "rpm": "28.2万",
+            "gmv": "2500万-5000万",
+            "skus": "17",
+            "sales": "1万-2.5万",
+            "stay_duration": 139,
+            "total_users": "63万",
+            "peak_users": "1.6万",
+            "duration": 7469,
+            "through": 0.13082364621685352,
+            "uv": "50-100",
+            "aup": "2200-2400",
+            "interact_ratio": 0.0019,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0847
+                },
+                {
+                    "name": "关注",
+                    "value": 0.15230000000000002
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5798
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.030600000000000002
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0184
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.016900000000000002
+                },
+                {
+                    "name": "付费",
+                    "value": 0.1168
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5798
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=Lo0yqnnDBkLBG&time_range_id=1",
+            "exposed_num": "374.7万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "Lo0y6jyp6pavm",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "qR38Z5ZMqYg",
+            "nick_name": "与辉同行",
+            "fans_count": "2964.5万",
+            "avatar": "https://pic.kaogujia.com/author/3250600708947220.jpeg?auth_key=1750993591-0-0-42f93cccb4d401a436c9de6ebaeb8b1d",
+            "title": "2025沐光而行",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518901889480575783.jpeg?auth_key=1750993591-0-0-76cdf52b64acd999cd6f7ecbe4d88f6d",
+            "pub_time": 1750635902,
+            "rpm": "3.5万",
+            "gmv": "2500万-5000万",
+            "skus": "277",
+            "sales": "50万-75万",
+            "stay_duration": 134,
+            "total_users": "1506.5万",
+            "peak_users": "6.6万",
+            "duration": 59649,
+            "through": 0.22332600677595577,
+            "uv": "0-10",
+            "aup": "50-100",
+            "interact_ratio": 9.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.061700000000000005
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1932
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.4524
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.013000000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0329
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0201
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2262
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.4524
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=Lo0y6jyp6pavm&time_range_id=1",
+            "exposed_num": "3026万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "4bRXRbALkZanL",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "wZL09QQqLpn",
+            "nick_name": "蔡磊破冰驿站",
+            "fans_count": "526.1万",
+            "avatar": "https://pic.kaogujia.com/author/3509239610621771.jpeg?auth_key=1750993591-0-0-60760637fd318831aceb65502cb5fdec",
+            "title": "蔡磊破冰驿站直播间好物分享",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518386739421956898.jpeg?auth_key=1750993591-0-0-6e48af67badf9be290f684e0feaddf4f",
+            "pub_time": 1750510837,
+            "rpm": "11.5万",
+            "gmv": "2500万-5000万",
+            "skus": "233",
+            "sales": "5万-7.5万",
+            "stay_duration": 232,
+            "total_users": "85.9万",
+            "peak_users": "2万",
+            "duration": 18174,
+            "through": 0.16962300924307816,
+            "uv": "10-50",
+            "aup": "500-600",
+            "interact_ratio": 0.0054,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.1178
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2116
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.35300000000000004
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.020800000000000003
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.038400000000000004
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0373
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2207
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.35300000000000004
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=4bRXRbALkZanL&time_range_id=1",
+            "exposed_num": "234.3万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "kLQ6p3MwEeqlo",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "wZL09QQqLpn",
+            "nick_name": "蔡磊破冰驿站",
+            "fans_count": "526.1万",
+            "avatar": "https://pic.kaogujia.com/author/3509239610621771.jpeg?auth_key=1750993591-0-0-60760637fd318831aceb65502cb5fdec",
+            "title": "蔡磊破冰驿站直播间好物分享",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518265716521601792.jpeg?auth_key=1750993591-0-0-cd45769f2ca580c8b90a11e4a33f34ce",
+            "pub_time": 1750482677,
+            "rpm": "16.4万",
+            "gmv": "2500万-5000万",
+            "skus": "190",
+            "sales": "7.5万-10万",
+            "stay_duration": 197,
+            "total_users": "98.3万",
+            "peak_users": "2.4万",
+            "duration": 12560,
+            "through": 0.17304891517934623,
+            "uv": "10-50",
+            "aup": "300-400",
+            "interact_ratio": 0.0051,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0912
+                },
+                {
+                    "name": "关注",
+                    "value": 0.168
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.4439
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.019100000000000002
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0253
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.025900000000000003
+                },
+                {
+                    "name": "付费",
+                    "value": 0.22610000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.4439
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=kLQ6p3MwEeqlo&time_range_id=1",
+            "exposed_num": "289.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "nWEol92aEnDQe",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "oxWVLQjxyZy",
+            "nick_name": "YK老张腕表源头代工",
+            "fans_count": "32.5万",
+            "avatar": "https://pic.kaogujia.com/author/2977950525034333.jpeg?auth_key=1750993591-0-0-26403bb19b7f3570cb4a4cda63c71694",
+            "title": "YK老张手表海外转内销",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518418087650118434.jpeg?auth_key=1750993591-0-0-8331ce566ba8bafed99bfa06b8c1f29b",
+            "pub_time": 1750518141,
+            "rpm": "4.4万",
+            "gmv": "2500万-5000万",
+            "skus": "83",
+            "sales": "1万-2.5万",
+            "stay_duration": 145,
+            "total_users": "38.9万",
+            "peak_users": "2808",
+            "duration": 45617,
+            "through": 0.1943622521436091,
+            "uv": "50-100",
+            "aup": "2000-2200",
+            "interact_ratio": 0.0031,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0036000000000000003
+                },
+                {
+                    "name": "关注",
+                    "value": 0.0307
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.6796
+                },
+                {
+                    "name": "直播推荐/同城",
+                    "value": 0.0018000000000000002
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0204
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.01
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0165
+                },
+                {
+                    "name": "付费",
+                    "value": 0.23720000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.6796
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=nWEol92aEnDQe&time_range_id=1",
+            "exposed_num": "147.5万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "4bRX4eW25vpAj",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "gELQvMZ4",
+            "nick_name": "大媛cc皮草（上新款中…）",
+            "fans_count": "14.7万",
+            "avatar": "https://pic.kaogujia.com/author/54952034505.jpeg?auth_key=1750993591-0-0-0198e25088c3686d98e80db1c90ad742",
+            "title": "小众高级皮料",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518646831711292210.jpeg?auth_key=1750993591-0-0-87a39f1c542f30e53a812635abe4865d",
+            "pub_time": 1750571411,
+            "rpm": "9.5万",
+            "gmv": "2500万-5000万",
+            "skus": "24",
+            "sales": "250-500",
+            "stay_duration": 55,
+            "total_users": "2.5万",
+            "peak_users": "93",
+            "duration": 20805,
+            "through": 0.1531715025679294,
+            "uv": "1200-1400",
+            "aup": "9.6万-9.8万",
+            "interact_ratio": 0.0118,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0368
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1444
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.6593
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0125
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.01
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0085
+                },
+                {
+                    "name": "付费",
+                    "value": 0.12760000000000002
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.6593
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=4bRX4eW25vpAj&time_range_id=1",
+            "exposed_num": "11.4万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "Gp0MWqqdgA4mE",
+            "is_live": 0,
+            "market_level": 0,
+            "uid": "a68D14v9Yo",
+            "nick_name": "平平好物推荐",
+            "fans_count": "3.8万",
+            "avatar": "https://pic.kaogujia.com/author/200529462179084.jpeg?auth_key=1750993591-0-0-02ae2243c49e0b85e20cd24abae7b77b",
+            "title": "感恩遇见的所有家人",
+            "live_cate_name": "其他-购物/电商",
+            "cover": "https://pic.kaogujia.com/live/7520057887194450728.jpeg?auth_key=1750993591-0-0-9ef2c8582e8ea84190e17e60e12ecc64",
+            "pub_time": 1750899941,
+            "rpm": "14.1万",
+            "gmv": "2500万-5000万",
+            "skus": "41",
+            "sales": "5000-7500",
+            "stay_duration": 151,
+            "total_users": "5.8万",
+            "peak_users": "4285",
+            "duration": 13775,
+            "through": 0.31291762478019747,
+            "uv": "500-600",
+            "aup": "4600-4800",
+            "interact_ratio": 0.009,
+            "traffic": [
+                {
+                    "name": "关注",
+                    "value": 0.0184
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.10600000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0045000000000000005
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.005
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0086
+                },
+                {
+                    "name": "付费",
+                    "value": 0.8563000000000001
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.8563000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=Gp0MWqqdgA4mE&time_range_id=1",
+            "exposed_num": "11.1万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250624,
+            "room_id": "Mo7xgX7onMBpW",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "qR38Z5ZMqYg",
+            "nick_name": "与辉同行",
+            "fans_count": "2964.5万",
+            "avatar": "https://pic.kaogujia.com/author/3250600708947220.jpeg?auth_key=1750993591-0-0-42f93cccb4d401a436c9de6ebaeb8b1d",
+            "title": "2025沐光而行",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519271235193391926.jpeg?auth_key=1750993591-0-0-157c3896013b0546280b406a49d3bcb0",
+            "pub_time": 1750722306,
+            "rpm": "3.2万",
+            "gmv": "2500万-5000万",
+            "skus": "248",
+            "sales": "25万-50万",
+            "stay_duration": 126,
+            "total_users": "1306.7万",
+            "peak_users": "6万",
+            "duration": 59239,
+            "through": 0.2323992015746568,
+            "uv": "0-10",
+            "aup": "50-100",
+            "interact_ratio": 9.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0776
+                },
+                {
+                    "name": "关注",
+                    "value": 0.21380000000000002
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.48860000000000003
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.014400000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0509
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0227
+                },
+                {
+                    "name": "付费",
+                    "value": 0.1315
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.48860000000000003
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=Mo7xgX7onMBpW&time_range_id=1",
+            "exposed_num": "2667.4万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "qeDoaxay6o7Md",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "gVj1r5VQ",
+            "nick_name": "温与柔（130斤不减肥版）",
+            "fans_count": "128.2万",
+            "avatar": "https://pic.kaogujia.com/author/96422658693.jpeg?auth_key=1750993591-0-0-954a31f025e1e1db0c3f232b20ffd9be",
+            "title": "夏款大上新！！都是现现！",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518620665205852964.jpeg?auth_key=1750993591-0-0-1f3de3f65151b7ec86d5dd7c520c0a92",
+            "pub_time": 1750565322,
+            "rpm": "16.1万",
+            "gmv": "2500万-5000万",
+            "skus": "196",
+            "sales": "1000-2500",
+            "stay_duration": 88,
+            "total_users": "6.1万",
+            "peak_users": "863",
+            "duration": 11906,
+            "through": 0.12916514673140542,
+            "uv": "500-600",
+            "aup": "1.6万-1.8万",
+            "interact_ratio": 0.0097,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.06330000000000001
+                },
+                {
+                    "name": "关注",
+                    "value": 0.23570000000000002
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5236000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.013600000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.032
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0164
+                },
+                {
+                    "name": "付费",
+                    "value": 0.1144
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5236000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=qeDoaxay6o7Md&time_range_id=1",
+            "exposed_num": "31.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "ZDlay3mxyx33N",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "GN1j01nKb73",
+            "nick_name": "念秋真丝（老板娘）",
+            "fans_count": "27.6万",
+            "avatar": "https://pic.kaogujia.com/author/1643095450203372.jpeg?auth_key=1750993591-0-0-26bb8c699ed319355a0928b6cb3b370a",
+            "title": "臻品高端夏季女装清仓中~",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518156170113157924.jpeg?auth_key=1750993591-0-0-cf8e73fa54f4c8c83d680ce44778c533",
+            "pub_time": 1750457199,
+            "rpm": "12.2万",
+            "gmv": "2500万-5000万",
+            "skus": "139",
+            "sales": "1万-2.5万",
+            "stay_duration": 138,
+            "total_users": "16.7万",
+            "peak_users": "2554",
+            "duration": 15522,
+            "through": 0.0,
+            "uv": "100-200",
+            "aup": "2600-2800",
+            "interact_ratio": 0.0036,
+            "traffic": null,
+            "max_traffic": null,
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=ZDlay3mxyx33N&time_range_id=1",
+            "exposed_num": "0",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "1bRADax6a6roq",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "Xe7pX4RlrvA",
+            "nick_name": "丫头baby-26号晚6点玛克茜妮收官场",
+            "fans_count": "307.5万",
+            "avatar": "https://pic.kaogujia.com/author/2718438251299581.jpeg?auth_key=1750993591-0-0-552a5dc5d93c72e88c03eb4bcc8c2db3",
+            "title": "电影时装年中大促！",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7519082850341751561.jpeg?auth_key=1750993591-0-0-98d5bf2e33bd40492b4a61125c206295",
+            "pub_time": 1750672919,
+            "rpm": "7.9万",
+            "gmv": "2500万-5000万",
+            "skus": "200",
+            "sales": "1万-2.5万",
+            "stay_duration": 322,
+            "total_users": "80.9万",
+            "peak_users": "2.8万",
+            "duration": 23368,
+            "through": 0.2608538616688574,
+            "uv": "10-50",
+            "aup": "1800-2000",
+            "interact_ratio": 0.0016,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.05
+                },
+                {
+                    "name": "关注",
+                    "value": 0.3392
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.307
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0436
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0212
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.041100000000000005
+                },
+                {
+                    "name": "付费",
+                    "value": 0.197
+                }
+            ],
+            "max_traffic": {
+                "name": "关注",
+                "value": 0.3392
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=1bRADax6a6roq&time_range_id=1",
+            "exposed_num": "141.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250626,
+            "room_id": "x8DWA0D7Ab8BX",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "79y9M9ke8dR",
+            "nick_name": "容雨（周二周四周天早9:00上新）",
+            "fans_count": "48.7万",
+            "avatar": "https://pic.kaogujia.com/author/3654403872275388.jpeg?auth_key=1750993591-0-0-1e683dfe9f402e5079d9c437a595ebce",
+            "title": "仲夏上新进行时",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7520057617247456015.jpeg?auth_key=1750993591-0-0-64c673810a80cb03c34cba774c436e49",
+            "pub_time": 1750899881,
+            "rpm": "8.4万",
+            "gmv": "2500万-5000万",
+            "skus": "110",
+            "sales": "7500-1万",
+            "stay_duration": 266,
+            "total_users": "17.8万",
+            "peak_users": "2543",
+            "duration": 21659,
+            "through": 0.33149116489755875,
+            "uv": "100-200",
+            "aup": "3400-3600",
+            "interact_ratio": 0.004,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0668
+                },
+                {
+                    "name": "关注",
+                    "value": 0.3262
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.23870000000000002
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0097
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.0142
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.027100000000000003
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3168
+                }
+            ],
+            "max_traffic": {
+                "name": "关注",
+                "value": 0.3262
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=x8DWA0D7Ab8BX&time_range_id=1",
+            "exposed_num": "19.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "E45lwyqrW0r0Y",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "GN1j01nKb73",
+            "nick_name": "念秋真丝（老板娘）",
+            "fans_count": "27.6万",
+            "avatar": "https://pic.kaogujia.com/author/1643095450203372.jpeg?auth_key=1750993591-0-0-26bb8c699ed319355a0928b6cb3b370a",
+            "title": "臻品高端夏季女装清仓中~",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518642341142399753.jpeg?auth_key=1750993591-0-0-f02a8096c8b7056148ded4b61a838a9e",
+            "pub_time": 1750570359,
+            "rpm": "11.4万",
+            "gmv": "2500万-5000万",
+            "skus": "146",
+            "sales": "1万-2.5万",
+            "stay_duration": 125,
+            "total_users": "21.4万",
+            "peak_users": "3052",
+            "duration": 15521,
+            "through": 0.0,
+            "uv": "100-200",
+            "aup": "2600-2800",
+            "interact_ratio": 0.0034,
+            "traffic": null,
+            "max_traffic": null,
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=E45lwyqrW0r0Y&time_range_id=1",
+            "exposed_num": "0",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "x8Do7VqExKMKl",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "rpY2peBv",
+            "nick_name": "陈思斯",
+            "fans_count": "71.6万",
+            "avatar": "https://pic.kaogujia.com/author/96008616730.jpeg?auth_key=1750993591-0-0-d58c76fdb0c4e85deafc224e9b76e714",
+            "title": "源头翡翠大户溯源",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518368570251184915.jpeg?auth_key=1750993591-0-0-2246000775c0824f5aa7d99a2edea5ec",
+            "pub_time": 1750506615,
+            "rpm": "8.7万",
+            "gmv": "2500万-5000万",
+            "skus": "56",
+            "sales": "2500-5000",
+            "stay_duration": 180,
+            "total_users": "28.1万",
+            "peak_users": "3418",
+            "duration": 19980,
+            "through": 0.2432812283930262,
+            "uv": "100-200",
+            "aup": "7600-7800",
+            "interact_ratio": 0.0078,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.036500000000000005
+                },
+                {
+                    "name": "关注",
+                    "value": 0.09670000000000001
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5712
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0451
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.018000000000000002
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0165
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2155
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5712
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=x8Do7VqExKMKl&time_range_id=1",
+            "exposed_num": "75.2万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250625,
+            "room_id": "lRV91DLkwVgnb",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "MGm159xQwZV",
+            "nick_name": "冰冰是福星",
+            "fans_count": "45.2万",
+            "avatar": "https://pic.kaogujia.com/author/1117583563819470.jpeg?auth_key=1750993591-0-0-04341f58113ed6574e288ecd68ca97bb",
+            "title": "冰冰宠粉 福利放不停",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519823809403521801.jpeg?auth_key=1750993591-0-0-535e5df89ceba5dff90e7290d038419f",
+            "pub_time": 1750845440,
+            "rpm": "7.6万",
+            "gmv": "2500万-5000万",
+            "skus": "17",
+            "sales": "7500-1万",
+            "stay_duration": 189,
+            "total_users": "30.2万",
+            "peak_users": "5695",
+            "duration": 21913,
+            "through": 0.19910747672144816,
+            "uv": "50-100",
+            "aup": "2800-3000",
+            "interact_ratio": 0.0035,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0847
+                },
+                {
+                    "name": "关注",
+                    "value": 0.0516
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3618
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.006200000000000001
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.010400000000000001
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0098
+                },
+                {
+                    "name": "付费",
+                    "value": 0.47490000000000004
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.47490000000000004
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=lRV91DLkwVgnb&time_range_id=1",
+            "exposed_num": "81.6万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250621,
+            "room_id": "qeDyKdwBDAEq6",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "KNKvNR5xRZ2",
+            "nick_name": "Miss大蜜蜜（孕晚期努力版）",
+            "fans_count": "87万",
+            "avatar": "https://pic.kaogujia.com/author/716471667011111.jpeg?auth_key=1750993591-0-0-a029b77f8eb80161e5875f86630f5bd5",
+            "title": "最后一场！奢品原单，一件不留！！",
+            "live_cate_name": "其他-电商",
+            "cover": "https://pic.kaogujia.com/live/7518213596808301364.jpeg?auth_key=1750993591-0-0-d5297c4507315e237433cb2173ba9361",
+            "pub_time": 1750470541,
+            "rpm": "10.7万",
+            "gmv": "2500万-5000万",
+            "skus": "231",
+            "sales": "2.5万-5万",
+            "stay_duration": 274,
+            "total_users": "49.1万",
+            "peak_users": "1.1万",
+            "duration": 15508,
+            "through": 0.23773565107901087,
+            "uv": "50-100",
+            "aup": "500-600",
+            "interact_ratio": 0.0026,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0791
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1998
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3062
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.019100000000000002
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.011000000000000001
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0199
+                },
+                {
+                    "name": "付费",
+                    "value": 0.3644
+                }
+            ],
+            "max_traffic": {
+                "name": "付费",
+                "value": 0.3644
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=qeDyKdwBDAEq6&time_range_id=1",
+            "exposed_num": "85.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "Nol48K3M7je77",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "qR38Z5ZMqYg",
+            "nick_name": "与辉同行",
+            "fans_count": "2964.5万",
+            "avatar": "https://pic.kaogujia.com/author/3250600708947220.jpeg?auth_key=1750993591-0-0-42f93cccb4d401a436c9de6ebaeb8b1d",
+            "title": "2025沐光而行",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518533248889244416.jpeg?auth_key=1750993591-0-0-c7a9445cbb2acf6e4ce44f930cab9783",
+            "pub_time": 1750549553,
+            "rpm": "5.9万",
+            "gmv": "2500万-5000万",
+            "skus": "251",
+            "sales": "10万-25万",
+            "stay_duration": 143,
+            "total_users": "671.6万",
+            "peak_users": "6.4万",
+            "duration": 27914,
+            "through": 0.22947861103032718,
+            "uv": "0-10",
+            "aup": "100-200",
+            "interact_ratio": 0.0012,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0568
+                },
+                {
+                    "name": "关注",
+                    "value": 0.1844
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.5025000000000001
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0111
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.029400000000000003
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.019100000000000002
+                },
+                {
+                    "name": "付费",
+                    "value": 0.1963
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.5025000000000001
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=Nol48K3M7je77&time_range_id=1",
+            "exposed_num": "1632.3万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250625,
+            "room_id": "gRj6VXrq6Aa87",
+            "is_live": 0,
+            "market_level": 7,
+            "uid": "qR38Z5ZMqYg",
+            "nick_name": "与辉同行",
+            "fans_count": "2964.5万",
+            "avatar": "https://pic.kaogujia.com/author/3250600708947220.jpeg?auth_key=1750993591-0-0-42f93cccb4d401a436c9de6ebaeb8b1d",
+            "title": "2025沐光而行",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7519644943506295593.jpeg?auth_key=1750993591-0-0-b3debe78ccd6ed16a74442dbdc95c290",
+            "pub_time": 1750808738,
+            "rpm": "2.7万",
+            "gmv": "2500万-5000万",
+            "skus": "268",
+            "sales": "25万-50万",
+            "stay_duration": 130,
+            "total_users": "1258万",
+            "peak_users": "7.8万",
+            "duration": 59370,
+            "through": 0.22526474955419917,
+            "uv": "0-10",
+            "aup": "50-100",
+            "interact_ratio": 9.0E-4,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0737
+                },
+                {
+                    "name": "关注",
+                    "value": 0.2155
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.48860000000000003
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0148
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.058800000000000005
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.023200000000000002
+                },
+                {
+                    "name": "付费",
+                    "value": 0.12490000000000001
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.48860000000000003
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=gRj6VXrq6Aa87&time_range_id=1",
+            "exposed_num": "2643.8万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250622,
+            "room_id": "QvkWwMdqWD4jG",
+            "is_live": 0,
+            "market_level": 6,
+            "uid": "y3lov19A",
+            "nick_name": "煤炭江湖刘夫人❤️周六见面噢~🙆‍♀️",
+            "fans_count": "61.7万",
+            "avatar": "https://pic.kaogujia.com/author/103311831014.jpeg?auth_key=1750993591-0-0-5bfa503a16bf90a2025d7389b0e12645",
+            "title": "快进来看，这女人有意思✌️",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518616223962237750.jpeg?auth_key=1750993591-0-0-d5069553b37f3b155df5afd1ac5bc823",
+            "pub_time": 1750564293,
+            "rpm": "5.8万",
+            "gmv": "2500万-5000万",
+            "skus": "149",
+            "sales": "10万-25万",
+            "stay_duration": 294,
+            "total_users": "93.2万",
+            "peak_users": "1.6万",
+            "duration": 26976,
+            "through": 0.22552118278947314,
+            "uv": "10-50",
+            "aup": "200-300",
+            "interact_ratio": 0.0018,
+            "traffic": [
+                {
+                    "name": "短视频引流",
+                    "value": 0.0766
+                },
+                {
+                    "name": "关注",
+                    "value": 0.275
+                },
+                {
+                    "name": "推荐feed",
+                    "value": 0.3005
+                },
+                {
+                    "name": "直播广场",
+                    "value": 0.0221
+                },
+                {
+                    "name": "搜索",
+                    "value": 0.034300000000000004
+                },
+                {
+                    "name": "个人主页",
+                    "value": 0.0432
+                },
+                {
+                    "name": "付费",
+                    "value": 0.2477
+                }
+            ],
+            "max_traffic": {
+                "name": "feed",
+                "value": 0.3005
+            },
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=QvkWwMdqWD4jG&time_range_id=1",
+            "exposed_num": "117.4万",
+            "is_cart": true,
+            "is_redirect": false
+        },
+        {
+            "date_code": 20250623,
+            "room_id": "1bRABaZLMoG0g",
+            "is_live": 0,
+            "market_level": 5,
+            "uid": "GN1j01nKb73",
+            "nick_name": "念秋真丝（老板娘）",
+            "fans_count": "27.6万",
+            "avatar": "https://pic.kaogujia.com/author/1643095450203372.jpeg?auth_key=1750993591-0-0-26bb8c699ed319355a0928b6cb3b370a",
+            "title": "臻品高端夏季女装清仓中~",
+            "live_cate_name": "",
+            "cover": "https://pic.kaogujia.com/live/7518900268721834761.jpeg?auth_key=1750993591-0-0-a6bf4631a27fc3d2f63281d5299f62df",
+            "pub_time": 1750630426,
+            "rpm": "10.1万",
+            "gmv": "2500万-5000万",
+            "skus": "123",
+            "sales": "7500-1万",
+            "stay_duration": 126,
+            "total_users": "15.7万",
+            "peak_users": "2759",
+            "duration": 15057,
+            "through": 0.0,
+            "uv": "100-200",
+            "aup": "2800-3000",
+            "interact_ratio": 0.0038,
+            "traffic": null,
+            "max_traffic": null,
+            "jump_url": "https://buyin.jinritemai.com/dashboard/inspiration-center/hot-live/live-details?room_id=1bRABaZLMoG0g&time_range_id=1",
+            "exposed_num": "0",
+            "is_cart": true,
+            "is_redirect": false
+        }
+    ],
+    "sort": {
+        "sort": 0,
+        "sort_field": "gmv"
+    },
+    "is_authority": true
+}

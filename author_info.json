@@ -1,0 +1,61 @@
+{
+    "uid": "jp8BQrDN",
+    "link_url": "https://www.douyin.com/user/MS4wLjABAAAAFnQr-uZTdQlhcV9cqRhb6T2MFAXh6ZOwzwHg3dw_akQ?",
+    "share_url": "https://www.douyin.com/share/user/63958948890?",
+    "nick_name": "阿文 MG",
+    "is_living": false,
+    "avatar": "https://pic.kaogujia.com/author/63958948890.jpeg?auth_key=1751011724-0-0-89c61c44949638414e4bfea0ecc7438c",
+    "market_level": 6,
+    "display_id": "213160360",
+    "verify": "",
+    "verify_type": 0,
+    "age": 34,
+    "gender": 2,
+    "location": null,
+    "tag": "时尚",
+    "fans": "75.7万",
+    "dsr_score": "4.90",
+    "dsr_level": "高",
+    "follower_order_ratio": 0.9371,
+    "mcn": null,
+    "ranking": "直播带货周榜 第40名",
+    "is_followed": false,
+    "room_id": null,
+    "room_date_code": null,
+    "market_categories": [
+        {
+            "name": "服饰内衣",
+            "percent": 66.83902877697842
+        },
+        {
+            "name": "鞋靴箱包",
+            "percent": 14.006294964028777
+        }
+    ],
+    "major_categories": [
+        "女装",
+        "女鞋",
+        "箱包"
+    ],
+    "signature": "周一休息⚠️\\n👉🏻@阿文的朋友圈唯一小号\\n服装界清流\\n清风徐来\\n希望能给大家带来好的衣服\\n砥砺前行\\n售后问题请私信：@木岸管家\\n商务咨询：🌏Muan5657备注来意",
+    "gmv": "1亿+",
+    "market_type": {
+        "market_type": 2,
+        "ratio": 1.0,
+        "live_ratio": 1.0,
+        "video_ratio": 0.0,
+        "other_ratio": 0.0,
+        "is_pure": 1
+    },
+    "market_days": 18,
+    "skus": 609,
+    "shop_id": null,
+    "shop_name": "",
+    "is_watch": true,
+    "update_time": 1750931491,
+    "video_arms_id": "0",
+    "video_arms_type": 0,
+    "live_arms_id": 0,
+    "live_arms_type": 0,
+    "is_material": true
+}

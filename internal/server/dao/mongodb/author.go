@@ -1,7 +1,8 @@
-package mongo
+package mongodb
 
 import (
 	"context"
+	"fmt"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -95,6 +96,15 @@ func (dao *AuthorDAO) Create(author *Author) error {
 	return err
 }
 
+// Create 批量创建
+func (dao *AuthorDAO) BatchCreate(ctx context.Context, authors []interface{}) error {
+	_, err := dao.collection.InsertMany(ctx, authors)
+	if err != nil {
+		log.Printf("Create author error: %v", err)
+	}
+	return err
+}
+
 // GetByID 根据ID获取作者
 func (dao *AuthorDAO) GetByID(authorID string) (*Author, error) {
 	var author Author
@@ -145,10 +155,10 @@ func (dao *AuthorDAO) Delete(authorID string) error {
 }
 
 // ListAll 获取所有作者（带分页）
-func (dao *AuthorDAO) ListAll(filter bson.M, page, limit int64) (map[string]interface{}, error) {
+func (dao *AuthorDAO) ListAll(ctx context.Context, filter bson.M, page, limit int64) (map[string]interface{}, error) {
 	result := make(map[string]interface{}, 0)
 	// 获取总条数
-	total, err := dao.collection.CountDocuments(context.TODO(), filter)
+	total, err := dao.collection.CountDocuments(ctx, filter)
 	if err != nil {
 		log.Printf("Count authors error: %v", err)
 		return result, err
@@ -162,7 +172,7 @@ func (dao *AuthorDAO) ListAll(filter bson.M, page, limit int64) (map[string]inte
 	// 添加默认排序（按粉丝数降序）
 	findOptions.SetSort(bson.D{{Key: "fans", Value: -1}})
 
-	cursor, err := dao.collection.Find(context.TODO(), filter, findOptions)
+	cursor, err := dao.collection.Find(ctx, filter, findOptions)
 	if err != nil {
 		log.Printf("List authors error: %v", err)
 		return result, err
@@ -170,9 +180,10 @@ func (dao *AuthorDAO) ListAll(filter bson.M, page, limit int64) (map[string]inte
 	defer cursor.Close(context.TODO())
 
 	var authors []Author
-	if err = cursor.All(context.TODO(), &authors); err != nil {
+	if err = cursor.All(ctx, &authors); err != nil {
 		return result, err
 	}
+	fmt.Println(authors)
 	result["list"] = authors
 	result["page"] = page
 	result["limit"] = limit

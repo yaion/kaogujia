@@ -65,7 +65,7 @@ type DatabaseConfig struct {
 	ConnMaxLifetime int    `yaml:"conn_max_lifetime"`
 }
 
-// ... 其他配置结构
+// RedisConfig 配置结构
 type RedisConfig struct {
 	Addr     string `yaml:"addr"`
 	Port     int    `yaml:"port"`
@@ -76,7 +76,7 @@ type RedisConfig struct {
 type MongoConfig struct {
 	Uri     string `yaml:"uri"`
 	DBName  string `yaml:"db_name"`
-	TimeOut int64  `yaml:"time_out"`
+	TimeOut int64  `yaml:"timeout"`
 }
 
 type Crawler struct {

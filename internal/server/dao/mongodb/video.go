@@ -5,6 +5,7 @@ import (
 	"errors"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
 	"log"
 )
 
@@ -100,13 +101,36 @@ func (dao *VideoDAO) Delete(ctx context.Context, awemeID string) error {
 }
 
 // 分页查询示例
-/*func (dao *VideoDAO) ListByPage(ctx context.Context, page, limit int64) ([]*Video, error) {
-	opts := options.Find().
-		SetSkip((page-1)*limit).
-		SetLimit(limit).
-		SetSort(bson.M{"pub_time": -1}) // 按发布时间排序
+func (dao *VideoDAO) ListAll(ctx context.Context, filter bson.M, page, limit int64) (map[string]interface{}, error) {
+	result := make(map[string]interface{}, 0)
+	// 获取总条数
+	total, err := dao.collection.CountDocuments(ctx, filter)
+	if err != nil {
+		log.Printf("Count authors error: %v", err)
+		return result, err
+	}
+	result["total"] = total
 
-	cursor, err := dao.collection.Find(ctx, bson.M{}, opts)
-	// 解析cursor逻辑
-	return results, err
-}*/
+	findOptions := options.Find()
+	findOptions.SetSkip((page - 1) * limit)
+	findOptions.SetLimit(limit)
+
+	// 添加默认排序（按粉丝数降序）
+	findOptions.SetSort(bson.D{{Key: "fans", Value: -1}})
+
+	cursor, err := dao.collection.Find(ctx, filter, findOptions)
+	if err != nil {
+		log.Printf("List authors error: %v", err)
+		return result, err
+	}
+	defer cursor.Close(ctx)
+
+	videos := make([]Video, 0)
+	if err = cursor.All(ctx, &videos); err != nil {
+		return result, err
+	}
+	result["list"] = videos
+	result["page"] = page
+	result["limit"] = limit
+	return result, nil
+}

@@ -106,10 +106,10 @@ func (dao *AuthorDAO) BatchCreate(ctx context.Context, authors []interface{}) er
 }
 
 // GetByID 根据ID获取作者
-func (dao *AuthorDAO) GetByID(authorID string) (*Author, error) {
+func (dao *AuthorDAO) GetByID(ctx context.Context, uid string) (*Author, error) {
 	var author Author
-	filter := bson.M{"author_id": authorID}
-	err := dao.collection.FindOne(context.TODO(), filter).Decode(&author)
+	filter := bson.M{"uid": uid}
+	err := dao.collection.FindOne(ctx, filter).Decode(&author)
 	if err != nil {
 		if err == mongo.ErrNoDocuments {
 			return nil, nil // 未找到
@@ -179,7 +179,7 @@ func (dao *AuthorDAO) ListAll(ctx context.Context, filter bson.M, page, limit in
 	}
 	defer cursor.Close(context.TODO())
 
-	var authors []Author
+	authors := make([]Author, 0)
 	if err = cursor.All(ctx, &authors); err != nil {
 		return result, err
 	}

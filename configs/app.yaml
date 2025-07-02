@@ -4,6 +4,16 @@ server:
   mode: debug
   read_timeout: 10
   write_timeout: 10
+  enableGzip: true
+  enableAccessLog: true
+
+log:
+  logLevel: info
+  logFileName: "log/hertz.log"
+  logMaxSize: 10
+  logMaxAge: 3
+  logMaxBackups: 50
+
 mysql:
   user: root
   password: zSpJJ4BhqcucmEF7
@@ -36,7 +46,7 @@ rabbitmq:
   routing_key: "routing_key"
   consumer_tag: "consumer_tag"
 mongodb:
-  uri: "mongodb://192.168.232.133:27017"
+  uri: "mongodb://127.0.0.1:27017"
   db_name: "test"
   collection_name: "test"
   timeout: 10
@@ -49,19 +59,11 @@ mongodb:
 websites:
   - name: "website1"
     allowed_domains: ["example1.com", "api.example1.com"]
-    targets:
-      - "https://example1.com/data1"
-      - "https://example1.com/data2"
     accounts:
-      - username: "user1"
-        password: "pass1"
-        proxy: "http://proxy1:port"
-        rate_limit: 2s
-        authorization:
-      - username: "user2"
-        password: "pass2"
-        proxy: "http://proxy2:port"
-        rate_limit: 3s
+      - username: user1
+        password: pass1
+        proxy: http://127.0.0.1:7890
+        rate_limit: 2
         authorization:
     interval: 30  # 分钟
     parallelism: 2
@@ -69,8 +71,6 @@ websites:
 
   - name: "website2"
     allowed_domains: ["example2.com"]
-    targets:
-      - "https://example2.com/data3"
     accounts:
       - username: "user1"
         password: "pass1"

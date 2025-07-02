@@ -6,6 +6,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+	"log"
 )
 
 // Store 店铺实体
@@ -70,4 +71,38 @@ func (dao *StoreDAO) Update(ctx context.Context, shopID string, updateData bson.
 func (dao *StoreDAO) Delete(ctx context.Context, shopID string) error {
 	_, err := dao.collection.DeleteOne(ctx, bson.M{"_id": shopID})
 	return err
+}
+
+func (dao *StoreDAO) ListAll(ctx context.Context, filter bson.M, page, limit int64) (map[string]interface{}, error) {
+	result := make(map[string]interface{}, 0)
+	// 获取总条数
+	total, err := dao.collection.CountDocuments(ctx, filter)
+	if err != nil {
+		log.Printf("Count authors error: %v", err)
+		return result, err
+	}
+	result["total"] = total
+
+	findOptions := options.Find()
+	findOptions.SetSkip((page - 1) * limit)
+	findOptions.SetLimit(limit)
+
+	// 添加默认排序（按粉丝数降序）
+	findOptions.SetSort(bson.D{{Key: "fans", Value: -1}})
+
+	cursor, err := dao.collection.Find(ctx, filter, findOptions)
+	if err != nil {
+		log.Printf("List authors error: %v", err)
+		return result, err
+	}
+	defer cursor.Close(context.TODO())
+
+	stores := make([]Store, 0)
+	if err = cursor.All(ctx, &stores); err != nil {
+		return result, err
+	}
+	result["list"] = stores
+	result["page"] = page
+	result["limit"] = limit
+	return result, nil
 }

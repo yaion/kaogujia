@@ -117,3 +117,37 @@ func (dao *ProductDAO) Delete(ctx context.Context, productID string) error {
 	_, err := dao.collection.DeleteOne(ctx, bson.M{"_id": productID})
 	return err
 }
+
+func (dao *ProductDAO) ListAll(ctx context.Context, filter bson.M, page, limit int64) (map[string]interface{}, error) {
+	result := make(map[string]interface{}, 0)
+	// 获取总条数
+	total, err := dao.collection.CountDocuments(ctx, filter)
+	if err != nil {
+		log.Printf("Count authors error: %v", err)
+		return result, err
+	}
+	result["total"] = total
+
+	findOptions := options.Find()
+	findOptions.SetSkip((page - 1) * limit)
+	findOptions.SetLimit(limit)
+
+	// 添加默认排序（按粉丝数降序）
+	findOptions.SetSort(bson.D{{Key: "fans", Value: -1}})
+
+	cursor, err := dao.collection.Find(ctx, filter, findOptions)
+	if err != nil {
+		log.Printf("List authors error: %v", err)
+		return result, err
+	}
+	defer cursor.Close(context.TODO())
+
+	products := make([]Product, 0)
+	if err = cursor.All(ctx, &products); err != nil {
+		return result, err
+	}
+	result["list"] = products
+	result["page"] = page
+	result["limit"] = limit
+	return result, nil
+}

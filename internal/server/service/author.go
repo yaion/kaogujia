@@ -27,14 +27,27 @@ func CreateAuthors(authors []*mongodb.Author) error {
 	return nil
 }
 
-func GetAuthorList() (map[string]interface{}, error) {
+func GetAuthorList(ctx context.Context, params map[string]interface{}, page, limit int64) (map[string]interface{}, error) {
 	client := middleware.GetMongo()
 	db := client.Database("kaogujia")
 	authorDAO := mongodb.NewAuthorDAO(db)
-	result, err := authorDAO.ListAll(context.Background(), bson.M{}, 1, 10)
+	bs := bson.M(params)
+	result, err := authorDAO.ListAll(ctx, bs, page, limit)
 	if err != nil {
 		log.Printf("Get author list error: %v", err)
 		return nil, err
 	}
 	return result, err
+}
+
+func GetAuthorInfo(ctx context.Context, uid string) (*mongodb.AuthorInfo, error) {
+	client := middleware.GetMongo()
+	db := client.Database("kaogujia")
+	authorInfoDAO := mongodb.NewAuthorInfo(db)
+	info, err := authorInfoDAO.GetByID(ctx, uid)
+	if err != nil {
+		log.Printf("Get author info error: %v", err)
+		return nil, err
+	}
+	return info, err
 }

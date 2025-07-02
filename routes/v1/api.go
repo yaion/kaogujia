@@ -12,14 +12,14 @@ func Register(r *server.Hertz) {
 		// 达人
 		author := root.Group("/author")
 		{
-			author.POST("/search", handler.GetAuthor)
+			author.POST("/search", handler.GetAuthorList)
 
 		}
 
 		// 商品 api/sku/search
 		sku := root.Group("/sku")
 		{
-			sku.POST("/search", handler.GetAuthor)
+			sku.POST("/search", handler.GetAuthorInfo)
 
 		}
 
@@ -27,7 +27,7 @@ func Register(r *server.Hertz) {
 
 		live := root.Group("/live")
 		{
-			live.POST("/search", handler.GetAuthor)
+			live.POST("/search", handler.GetLiveList)
 
 		}
 
@@ -35,7 +35,7 @@ func Register(r *server.Hertz) {
 
 		video := root.Group("/video")
 		{
-			video.POST("/search", handler.GetAuthor)
+			video.POST("/search", handler.GetVideoList)
 
 		}
 
@@ -43,7 +43,7 @@ func Register(r *server.Hertz) {
 
 		shop := root.Group("/shop")
 		{
-			shop.POST("/search", handler.GetAuthor)
+			shop.POST("/search", handler.GetStoreList)
 
 		}
 
@@ -51,7 +51,15 @@ func Register(r *server.Hertz) {
 
 		brand := root.Group("/brand")
 		{
-			brand.POST("/brand", handler.GetAuthor)
+			brand.POST("/search", handler.GetBrandList)
+
+		}
+
+		// 商品 api/product/search
+
+		product := root.Group("/product")
+		{
+			product.POST("/search", handler.GetProductList)
 
 		}
 

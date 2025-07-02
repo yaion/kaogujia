@@ -1,6 +1,7 @@
 package config
 
 import (
+	"github.com/cloudwego/hertz/pkg/common/hlog"
 	"io"
 	"os"
 	"sync"
@@ -44,11 +45,13 @@ type AccountConfig struct {
 
 // ServerConfig 服务器配置
 type ServerConfig struct {
-	Host         string `yaml:"host"` // 监听地址
-	Port         int    `yaml:"port"`
-	Mode         string `yaml:"mode"` // debug/release
-	ReadTimeout  int    `yaml:"read_timeout"`
-	WriteTimeout int    `yaml:"write_timeout"`
+	Host            string `yaml:"host"` // 监听地址
+	Port            int    `yaml:"port"`
+	Mode            string `yaml:"mode"` // debug/release
+	ReadTimeout     int    `yaml:"read_timeout"`
+	WriteTimeout    int    `yaml:"write_timeout"`
+	EnableGzip      bool   `yaml:"enableGzip"`
+	EnableAccessLog bool   `yaml:"enableAccessLog"`
 }
 
 // DatabaseConfig 数据库配置
@@ -84,6 +87,11 @@ type Crawler struct {
 }
 
 type LogConfig struct {
+	LogLevel      string `yaml:"logLevel"`
+	LogFileName   string `yaml:"logFileName"`
+	LogMaxSize    int    `yaml:"logMaxSize"`
+	LogMaxBackups int    `yaml:"logMaxBackups"`
+	LogMaxAge     int    `yaml:"logMaxAge"`
 }
 
 // Load 加载配置 (线程安全)
@@ -119,4 +127,26 @@ func loadFromYAML(path string) (*AppConfig, error) {
 	}
 
 	return &config, nil
+}
+
+func LogLevel() hlog.Level {
+	level := cfg.Log.LogLevel
+	switch level {
+	case "trace":
+		return hlog.LevelTrace
+	case "debug":
+		return hlog.LevelDebug
+	case "info":
+		return hlog.LevelInfo
+	case "notice":
+		return hlog.LevelNotice
+	case "warn":
+		return hlog.LevelWarn
+	case "error":
+		return hlog.LevelError
+	case "fatal":
+		return hlog.LevelFatal
+	default:
+		return hlog.LevelInfo
+	}
 }

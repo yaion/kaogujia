@@ -5,13 +5,14 @@ go 1.23.1
 require (
 	github.com/cloudwego/hertz v0.10.0
 	github.com/go-redis/redis/v8 v8.11.5
+	github.com/gocolly/colly v1.2.0
 	github.com/gocolly/colly/v2 v2.2.0
 	github.com/hertz-contrib/cors v0.1.0
 	github.com/hertz-contrib/gzip v0.0.3
 	github.com/hertz-contrib/logger/accesslog v0.0.0-20241107070745-e4ce8c54dd97
 	github.com/hertz-contrib/logger/logrus v1.0.1
+	github.com/robfig/cron/v3 v3.0.1
 	go.mongodb.org/mongo-driver v1.17.4
-	golang.org/x/time v0.12.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/mysql v1.6.0

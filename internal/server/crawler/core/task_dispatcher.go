@@ -1,51 +1,60 @@
 package core
 
 import (
+	"log"
 	"sync"
+	"time"
 )
 
 type TaskDispatcher struct {
-	tasks       []*Task
 	accountPool *AccountPool
+	taskChan    chan *Task
 	wg          sync.WaitGroup
+	mu          sync.Mutex
 }
 
 func NewTaskDispatcher(pool *AccountPool) *TaskDispatcher {
 	return &TaskDispatcher{
 		accountPool: pool,
+		taskChan:    make(chan *Task, 10000),
 	}
 }
 
 func (d *TaskDispatcher) AddTask(task *Task) {
-	d.tasks = append(d.tasks, task)
+	d.mu.Lock()
+	defer d.mu.Unlock()
+	d.taskChan <- task
 }
 
-func (d *TaskDispatcher) Run(concurrency int) error {
-	taskChan := make(chan *Task, len(d.tasks))
-
-	// 填充任务通道
-	for _, task := range d.tasks {
-		taskChan <- task
-	}
-	close(taskChan)
-
+func (d *TaskDispatcher) Run(concurrency int) {
 	// 启动工作池
 	for i := 0; i < concurrency; i++ {
 		d.wg.Add(1)
-		go d.worker(taskChan)
+		go d.worker()
 	}
 
 	d.wg.Wait()
-	return nil
+	close(d.taskChan)
 }
 
-func (d *TaskDispatcher) worker(taskChan <-chan *Task) {
+func (d *TaskDispatcher) worker() {
 	defer d.wg.Done()
 
-	for task := range taskChan {
+	for task := range d.taskChan {
 		acc := d.accountPool.GetAccount()
-		if err := ExecuteRequest(task, acc); err != nil {
-			// 错误处理
+		log.Printf("使用账号 %s 处理任务: %s %s", acc.ID, task.Method, task.URL)
+
+		// 带重试的执行
+		retry := 0
+		maxRetries := 3
+		for retry < maxRetries {
+			if err := ExecuteRequest(task, acc, d); err != nil {
+				log.Printf("请求失败 (尝试 %d/%d): %v", retry+1, maxRetries, err)
+				retry++
+				time.Sleep(time.Duration(retry) * time.Second)
+			} else {
+				break
+			}
 		}
 	}
 }
